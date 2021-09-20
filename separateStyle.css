@@ -1,0 +1,149 @@
+:root {
+    --text-color: #f0f4f0;
+    --backgroun-color: #00b82e;
+    --accent-color: #66d4aa;
+  }
+  
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans Pro";
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgroun-color);
+    padding: 8px 12px;
+  }
+  
+  .header_logo {
+    font-size: 24px;
+    color: var(--text-color);
+  }
+  
+  .header_logo i {
+    color: var(--accent-color);
+  }
+  
+  .header_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .header_menu li {
+    padding: 8px 12px;
+  }
+  
+  .header_menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+  }
+  
+  .search_icon {
+    display: flex;
+    list-style: none;
+    color: var(--text-color);
+    padding-left: 0;
+  }
+  
+  .search_icon li {
+    padding: 8px 4px;
+  }
+  
+  .header_search {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: var(--accent-color);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+    }
+  
+    .header_menu {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .header_menu li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .search_icon {
+      display: none;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .header_search {
+      display: block;
+    }
+  
+    .header_menu.active,
+    .nheader_icons.active {
+      display: flex;
+    }
+  }
+  .footer {
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+    padding: 15px 0;
+
+    text-align: center;
+
+    color: black;
+
+    background: green;
+
+}
+
+/* 검색기능 */
+.green_window {
+  display: inline-block;
+  width: 366px; height: 34px;
+  border: 3px solid #200400;
+  background: white;
+}
+.input_text {
+  width: 348px; height: 21px;
+  margin: 6px 0 0 9px;
+  border: 0;
+  line-height: 21px;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+}
+.sch_smit {
+  width: 54px; height: 40px;
+  margin: 0; border: 0;
+  vertical-align: top;
+  background: #200400;
+  color: white;
+  font-weight: bold;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.sch_smit:hover {
+  background: #56C82C;
+}
+   
