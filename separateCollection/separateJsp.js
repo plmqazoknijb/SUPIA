@@ -17,3 +17,16 @@ function myFunction() {
   var x = document.getElementById("text").value;
   window.location.href = "http://cybertramp.net/search/"+x;
 }
+
+function btnclick(_url){
+    $.ajax({
+        url : _url,
+        type : 'post',
+        success: function(data) {
+            $('#include_page').html(data);
+        },
+            error: function() {
+            $('#include_page').text('페이지 점검중 입니다.');
+        }
+    });
+}
