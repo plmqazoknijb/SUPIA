@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../separateCollection/headerfooterStyle.css" />
     <title>Upcycle</title>
-    <style>
-        body{
-            margin: 0px;
-        }
-    </style>
+    <!-- html include script -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">   
+      $(document).ready( function() {
+
+      $("#header").load("../separateCollection/header.html");  
+      $("#menu").load("u_menu.html");
+      $("#footer").load("../separateCollection/footer.html"); 
+
+      });
+    </script>
 </head>
 <body>
-    <div class="contanuor">
-        <iframe class=header src="u_header.html" width="100%" height="100px" frameborder="0"></iframe>
-        <!-- <iframe class=menu src="u_menu.html" width="100%" height="102px" frameborder="0"></iframe>
-        <iframe class=header src="u_footer.html" width="100%" height="102px" frameborder="0"></iframe> -->
+    <div class="container">
+        <div class = top id="header"></div>
+        <div class = mid id="menu"></div>
+        <div class = bottom id ="footer"></div>
     </div>
 </body>
 </html>
