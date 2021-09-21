@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css" />
-    <script src="main.js" defer></script>
+    <script src="./main.js" defer></script>
     <title>menu</title>
+    
 </head>
 <body>
-    <div class=menu></div>
+    <section id="banner">
+        <div class="slideList">
+            <div class="slideImg"><img src="./main_image/main1.jpg" alt="이미지 설명"></div>
+            <div class="slideImg"><img src="./main_image/main2.jpg" alt="이미지 설명"></div>
+            <div class="slideImg"><img src="./main_image/main3.jpg" alt="이미지 설명"></div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        var slideCount = $(".slideImg").length;
+        var currentIndex = 0;
+        var slidePosition;
+
+        setInterval(function(){
+            if(currentIndex < slideCount - 1){
+                currentIndex++;
+            } else {
+                currentIndex = 0;
+            }
+            slidePosition = currentIndex * (-1200)+"px";
+            $(".slideList").animate({ left: slidePosition},400);
+        },3000);
+    </script>
 </body>
 </html>

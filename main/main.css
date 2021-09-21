@@ -5,20 +5,40 @@
     grid-template-rows: 80px*50px;
 }
 .top{
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 .mid{
-    grid-column: 2/4;
+    grid-column: 3/5;
 }
 .bottom{
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 
 /* Edit menu*/
 body {
-    background-image: url("https://via.placeholder.com/150/300AAA");
+
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: 100%;
     
 }
+/* banner */
+#banner {position: relative; width: 1535px; margin: 0 auto; text-align: center; overflow: hidden; height: 435px; }
+#banner img {width: 100%; display: block;}
+#banner h2 {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: rgba(255,255,255,0.5);
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+/* slider */
+.slider {position: relative;}
+.slider > div {position: absolute; left: 0; top: 0;}
+.slider > div img {width: 100%;}
+.slideList {position: relative; width: 3600px; height: 360px;}
+.slideList .slideImg {float: left; width: 1200px; height: 360px;}
+
+
