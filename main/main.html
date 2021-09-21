@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="../separateCollection/separateStyle.css" />
+    
     <title>🍀수피아🍀</title>
-    <script src="main.js"></script>
+    <!-- html include script -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">   
+      $(document).ready( function() {
+
+      $("#header").load("../separateCollection/header.html");  
+      $("#menu").load("menu.html")
+      $("#footer").load("../separateCollection/footer.html"); 
+
+      });
+    </script>
+    
 </head>
 <body>
-    <nav>
-        <div class="header">
-            <h1>수피아</h1>
-        </div>
-        <ul> 
-            <li><a href="../separateCollection/separate.html">분리수거</a></li>
-            <li><a href="../upcycle/upcycle.html">업사이클</a></li>
-            <li><a href="../upcycle/upcycle.html">캠페인</a></li>
-            <li><a href="../upcycle/upcycle.html">공지사항</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <div class = top id="header"></div>
+        <div class = mid id="menu"></div>
+        <div class = bottom id ="footer"></div>
+    </div>
 </body>
 </html>

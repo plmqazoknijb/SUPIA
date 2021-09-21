@@ -1,42 +1,23 @@
-nav ul {
-    list-style-type: none; 
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+/*make of grid*/
+.container{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 80px*50px;
 }
-nav li {
-    float: left; 
-    margin-left: 100px;
-    font-weight: 453;
-    font-size: 16px;
+.top{
+    grid-column: 1/4;
 }
-.header h1{
-    margin-left: 20px;
-    font-size: 30px;
-    margin-top: 30px;
+.mid{
+    grid-column: 2/4;
+    background-color: blue;
+}
+.bottom{
+    grid-column: 1/4;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-}
-nav a:hover{
-    color:rgb(30, 158, 25)
-}
+/* Edit menu*/
 body {
-    background-image: url("main_image/");
-    /* background-position: center; */
-    background-size: cover;
-    width: 98%;
-    height: 100%;
-}
-a:link{
-    text-decoration: none;
-    color: black;
-}
-nav a:active{
-    color:black
-}
-.header{
-    float: left;
+    background-image: url("https://via.placeholder.com/150/300AAA");
+    background-position: center;
+    background-size: 50%;
 }
