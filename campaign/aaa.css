@@ -1,0 +1,40 @@
+*{margin:0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    padding: 30px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(113, 255, 113);
+}
+
+header a{text-decoration: none; color: rgb(0, 0, 0);}
+
+nav{
+    background-color: red;
+    width: 1500px;
+    padding-right: 20px;
+    font-style:oblique;}
+
+nav ul li {
+    display: inline;
+    letter-spacing: .3em; /*글씨 사이 거리*/
+    margin-left: 15em; /*그냥 건들지마쇼*/
+}
+
+nav ul li a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 5em; 
+    /* header과의 거리 */
+}
+
+nav ul li a:hover{color:rgb(137, 255, 143); text-decoration: none;}
+
+footer{
+    margin-top: 10px;
+    margin-bottom:50px;
+    text-align: center;
+}
