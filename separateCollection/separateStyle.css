@@ -147,37 +147,11 @@
   background: #56C82C;
 }
    
-/* .wrapper {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
-  grid-template-rows: repeat(auo-fit, minmax(200px, 4fr));
-}
-.one {
-  background-color: #00b82e;
-  grid-column: 1/3;
-  grid-row: 1;
-}
-.two {
-  background-color: #66d4aa;
-  grid-column: 2 / 3;
-  grid-row: 2;
-}
-.three {
-  background-color: aqua;
-  grid-column: 1/2;
-  grid-row: 2;
-}
-.four {
-  background-color: blanchedalmond;
-  grid-column: 1/3;
-  grid-row: 3;
-} */
+/* grid */
 .wrapper{
   display: grid;
   grid-template-columns: none;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 80px * 50px;
 }
 .one {
   background-color: #00b82e;
