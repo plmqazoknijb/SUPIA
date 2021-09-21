@@ -1,7 +1,7 @@
 :root {
-    --text-color: #f0f4f0;
-    --backgroun-color: #00b82e;
-    --accent-color: #66d4aa;
+    --text-color: #86A614;
+    --backgroun-color: #D6D979;
+    --accent-color: #567317;
   }
   
   body {
@@ -99,6 +99,7 @@
       display: flex;
     }
   }
+  /* footer */
   .footer {
 
     left: 0;
@@ -111,9 +112,9 @@
 
     text-align: center;
 
-    color: black;
+    color: #f2f2f2;
 
-    background: green;
+    background: #86A614;
 
 }
 
@@ -154,19 +155,17 @@
   grid-template-rows: 80px * 50px;
 }
 .one {
-  background-color: #00b82e;
   grid-column: 1 / 5;
 }
 .two {
-  background-color: #66d4aa;
+  background-color: #567317;
   grid-column: 1 / 2;
 }
 .three {
-  background-color: aqua;
+  background-color: #BFAC95;
   grid-column: 2 / 5;
 }
 .four {
-  background-color: blanchedalmond;
   grid-column: 1 / 5;
 }
 @media only screen and (max-width: 720px){
