@@ -1,6 +1,6 @@
 .header ul {
     list-style-type: none; 
-    width: 700px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -10,13 +10,23 @@
     font-weight: 453;
     font-size: 16px;
 }
-.nav{
-    margin-top: 30px;
+.header h1{
+    margin-left: 50px;
 }
+/* .nav{
+    margin-top: 30px;
+} */
 .nav a{
     text-decoration: none;
     color: black;
 }
 .nav a:hover{
     color:rgb(30, 158, 25)
+}
+body {
+    background-image: url("main_image/");
+    /* background-position: center; */
+    background-size: cover;
+    width: 98%;
+    height: 100%;
 }

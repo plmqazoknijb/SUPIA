@@ -7,82 +7,18 @@
     <link rel="stylesheet" href="main.css" />
     <title>🍀수피아🍀</title>
     <script src="main.js"></script>
-    <style>
-        .header ul {
-            list-style-type: none; 
-            width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .header li {
-            float: left; 
-            margin-left: 100px;
-            font-weight: 453;
-            font-size: 16px;
-        }
-        .nav{
-            margin-top: 30px;
-        }
-        .nav a{
-            text-decoration: none;
-            color: black;
-        }
-        .nav a:hover{
-            color:rgb(30, 158, 25)
-        }
-        /* banner */
-        #banner {position: relative; width: 1200px; margin: 0 auto; text-align: center; overflow: hidden; height: 360px; }
-        #banner img {width: 100%; display: block;}
-        #banner h2 {
-            position: absolute; left: 50%; top: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-            background: rgba(255,255,255,0.5);
-            border-radius: 25px;
-            padding: 10px 30px;
-        }
-        
-        /* slider */
-        .slider {position: relative;}
-        .slider > div {position: absolute; left: 0; top: 0;}
-        .slider > div img {width: 100%;}
-        .slideList {position: relative; width: 3600px; height: 360px;}
-        .slideList .slideImg {float: left; width: 1200px; height: 1000px;}
-
-    </style>
     
 </head>
 <body>
     <div class="header">
+        
+        <h1>수피아</h1>
         <ul class ="nav">
             <li><a href="../separate.html">분리수거</a></li>
             <li><a href="../upcycle/upcycle.html">업사이클</a></li>
             <li>캠페인</li>
             <li>공지사항</li>
         </ul>
-        <section id="banner">
-            <div class="slideList">
-                <div class="slideImg"><img src="main_image/main1.jpg"></div>
-                <div class="slideImg"><img src="main_image/main2.jpg"></div>
-                <div class="slideImg"><img src="main_image/main3.jpg"></div>
-            </div>
-        </section>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-        var slideCount = $(".slideImg").length;
-        var currentIndex = 0;
-        var slidePosition;
-
-        setInterval(function(){
-            if(currentIndex < slideCount - 1){
-                currentIndex++;
-            } else {
-                currentIndex = 0;
-            }
-            slidePosition = currentIndex * (-1200)+"px";
-            $(".slideList").animate({ left: slidePosition},400);
-        },3000);
-    </script>
 </body>
 </html>
