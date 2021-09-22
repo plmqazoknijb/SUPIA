@@ -46,12 +46,12 @@
     border-radius: 4px;
   }
   
-  .search_icon {
+  /* .search_icon {
     display: flex;
     list-style: none;
     color: var(--text-color);
     padding-left: 0;
-  }
+  } */
   
   .search_icon li {
     padding: 8px 4px;
@@ -84,11 +84,11 @@
       text-align: center;
     }
   
-    .search_icon {
+    /* .search_icon {
       display: none;
       justify-content: center;
       width: 100%;
-    }
+    } */
   
     .header_search {
       display: block;
