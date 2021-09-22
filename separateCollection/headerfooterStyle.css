@@ -1,62 +1,73 @@
+/* 전체 색 */
 :root {
     --text-color: #86A614;
     --backgroun-color: #D6D979;
     --accent-color: #567317;
   }
   
+  /* 웹사이트 전체 설정*/
   body {
     box-sizing: border-box;
     margin: 0;
-    font-family: "Source Sans Pro";
+    /* font-family: "Source Sans Pro"; */
   }
   
+  /* 링크 색, 밑줄 없애기 */
   a {
     text-decoration: none;
     color: var(--text-color);
   }
+
+  /* 헤더 전체 */
   .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--backgroun-color);
+    justify-content: space-between; /* 요소 사이에 여유 공간 */
+    align-items: center;  /* 수직 센터 */
+    background-color: var(--backgroun-color); /* 헤더 배경 색 */
     padding: 8px 12px;
   }
   
+  /* 수피아 로고 크기 및 밑줄 제거 */
   .header_logo {
-    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    /* margin-left: 20px; */
     color: var(--text-color);
   }
-  
-  .header_logo i {
-    color: var(--accent-color);
-  }
-  
+
+  /* 중요 위치 달라짐 */
   .header_menu {
     display: flex;
     list-style: none;
     padding-left: 0;
   }
   
+  /* 메뉴들 간격 */
   .header_menu li {
     padding: 8px 12px;
   }
   
+  /* 클릭 이벤트 */
   .header_menu li:hover {
     background-color: var(--accent-color);
     border-radius: 4px;
   }
   
-  /* .search_icon {
+  /* 굳이 필요없는 듯 */
+  .search_icon {
     display: flex;
     list-style: none;
     color: var(--text-color);
     padding-left: 0;
-  } */
-  
+  }
+
+
+  /* 이ㅓㄳ도 없 */
   .search_icon li {
     padding: 8px 4px;
   }
   
+  /* 줄었을 때 나타남 */
   .header_search {
     display: none;
     position: absolute;
@@ -78,12 +89,19 @@
       align-items: center;
       width: 100%;
     }
-  
-    .header_menu li {
+
+    .navbar__icons {
+      display: none;
+      justify-content: center;
       width: 100%;
-      text-align: center;
     }
   
+    /* .header_menu li {
+      width: 100%;
+      text-align: center;
+    } */
+  
+    /* 필요 없느 ㄷ스 */
     /* .search_icon {
       display: none;
       justify-content: center;
@@ -94,32 +112,47 @@
       display: block;
     }
   
+    /* 중요 절대 지우지 마 */
     .header_menu.active,
-    .nheader_icons.active {
+    .header_icons.active {
       display: flex;
     }
   }
 
     /* footer.html */
 
-    .py-5{
-    
-        background-color: blanchedalmond;
-      }
-      .col-md{
-        display: inline-block;
-        height: 200px;
-        margin-right: 50px;
-      }
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      ul{
-        list-style: none;
-      }
-      h5{
-        position: relative;
-        left: 40px;
-      }
+.py-5{
+  background-color: blanchedalmond;
+}
+.col-md{
+  display: inline-block;
+  height: 200px;
+  margin-right: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul{
+  list-style: none;
+}
+h5{
+  position: relative;
+  left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+  /* 줄어들었을 때 세로정렬 하는 방법 */
+  
+  /* .py-5{
+    display: flex;
+    align-items: center;
+  }
+
+  .col-md{
+    flex-direction: column;
+  } */
+  
+}

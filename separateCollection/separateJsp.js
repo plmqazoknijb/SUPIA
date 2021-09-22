@@ -1,6 +1,6 @@
 const searchBtn = document.querySelector(".header_search");
 const menu = document.querySelector(".header_menu");
-const icons = document.querySelector(".search_icon");
+const icons = document.querySelector(".navbar__icons");
 
 searchBtn.addEventListener("click", () => {
   menu.classList.toggle("active");
@@ -8,13 +8,13 @@ searchBtn.addEventListener("click", () => {
 });
 
 // 검색기능
-function enterSearch() {
-  if(event.keyCode == 13){
-      myFunction();  // 실행할 이벤트
-  }
-}
-function myFunction() {
-  var x = document.getElementById("text").value;
-  window.location.href = "http://cybertramp.net/search/"+x;
-}
+// function enterSearch() {
+//   if(event.keyCode == 13){
+//       myFunction();  // 실행할 이벤트
+//   }
+// }
+// function myFunction() {
+//   var x = document.getElementById("text").value;
+//   window.location.href = "http://cybertramp.net/search/"+x;
+// }
 
