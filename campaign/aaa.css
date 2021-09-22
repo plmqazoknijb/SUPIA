@@ -38,3 +38,27 @@ footer{
     margin-bottom:50px;
     text-align: center;
 }
+
+/* grid */
+.wrapper{
+    display: grid;
+    grid-template-columns: 200px;
+    /* grid-template-rows: 80px * 50px; */
+  }
+  .one {
+    grid-column: 1 / 5;
+  }
+  .two {
+    background-color: #BFAC95;
+    grid-column: 2 / 5;
+  }
+  .three {
+    grid-column: 1 / 5;
+  }
+  @media only screen and (max-width: 720px){
+    .two {
+      grid-column: 1 / 5;
+      grid-row: 3 / 4;
+    }
+    
+  }

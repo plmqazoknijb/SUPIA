@@ -3,71 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>캠페인 및 공모전</title>
-        <link rel="stylesheet" href="./aaa.css">
+        <link rel="stylesheet" href="../separateCollection/headerfooterStyle.css">
 
-        <style>
-            *{margin: 0; padding:0;}
-            #wrap{
-                font-size: 20px;
-                width: 1500px;
-                margin: 0 auto;
-                overflow:  hidden;
-                padding-top: 40px;
-            }
-            #wrap a{
-                text-decoration: none; color: rgb(0, 0, 0);
-            }
+        <!-- html include script -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript">   
+            $(document).ready( function() {
 
-            #wrap a:hover{color:gray; text-decoration: none;}
-
-            div>article{
-                float: left;
-                margin-bottom: 30px;
-                margin-left: 40px;
-                margin-right: 40px;
-            }
-                img{display: block;}
-
-            *{
-                    font-family: 'Sunflower', sans-self;
-            }
-        </style>
+            $("#header").load("../separateCollection/header.html");  
+            $("#contents").load("campaignmain.html");
+            $("#footer").load("../separateCollection/footer.html"); 
+        });
+    </script>
     </head>
 </html>
 <body>
-    <h1>
-    <header>
-        <a href="aa.html">수피아</a>
-    </header>
-    </h1>
-    <nav>
-        <ul>
-            <li><a href="recycling.html">분리수거</a></li>
-            <li><a href="upcycling.html">업사이클링</a></li>
-            <li>캠페인및공모전</li>
-            <li><a href="alim.html">공지사항</a></li>
-        </ul>
-    </nav>
-    <div id="wrap">
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-             <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption>안녕하다</figcaption> </article>
-        <article><img src="./aa.jpg" alt="포스터"  width="290" height="350" hspace="2" vspace="3" >
-            <figcaption><br><a href="1.html">2021년 공모전</a> </figcaption> </article>
-    </div>
 
-    <footer>
-        <p>supiada</p> 
-    </footer>
+    <div class="wrapper">
+        <div class="one" id="header"></div>
+        <div class="two" id="contents"></div>
+        <div class="three" id="footer"></div>
+      </div>
 </body>
