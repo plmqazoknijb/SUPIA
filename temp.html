@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <style>
+        :root {
+  --text-color: #f0f4f0;
+  --backgroun-color: #263343;
+  --accent-color: #d49466;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--backgroun-color);
+  padding: 8px 12px;
+}
+
+.navbar__logo {
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.navbar__logo i {
+  color: var(--accent-color);
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+}
+
+.navbar__menu li:hover {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+}
+
+.navbar__icons {
+  display: flex;
+  list-style: none;
+  color: var(--text-color);
+  padding-left: 0;
+}
+
+.navbar__icons li {
+  padding: 8px 4px;
+}
+
+.navbar__toggleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__icons {
+    display: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar__toggleBtn {
+    display: block;
+  }
+
+  .navbar__menu.active,
+  .navbar__icons.active {
+    display: flex;
+  }
+}
+    </style>
+    <title>Nav bar</title>
+    <script>
+        const toggleBtn = document.querySelector(".navbar__toggleBtn");
+        const menu = document.querySelector(".navbar__menu");
+        const icons = document.querySelector(".navbar__icons");
+
+        toggleBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        icons.classList.toggle("active");
+        });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navbar__logo">
+          <i class="fas fa-ghost"></i>
+          <a href="">Front-End Study</a>
+        </div>
+  
+        <ul class="navbar__menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Wedding</a></li>
+          <li><a href="">FAG</a></li>
+          <li><a href="">Bookings</a></li>
+        </ul>
+  
+        <ul class="navbar__icons">
+          <li><i class="fab fa-twitter">ㄴㅇㄹ</i></li>
+          <li class="fab fa-facebook-f">ㄴㄹㅇ</li>
+        </ul>
+  
+        <a href="#" class="navbar__toggleBtn">
+          <i class="fas fa-bars">ㄴㅁㅇㄹ</i>
+        </a>
+      </nav>
+  </body>
+</html>
