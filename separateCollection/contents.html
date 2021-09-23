@@ -2,12 +2,111 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./separateStyle.css" />
+        <link rel="stylesheet" href="./contentStyle.css" />
         <title>수피아</title>
-        <script src="./separateJsp.js" defer></script>
+        <script type="text/javascript">
+            function filter(){
+      
+              var value, name, item, i;
+      
+              value = document.getElementById("value").value.toUpperCase();
+              item = document.getElementsByClassName("item");
+      
+              for(i=0;i<item.length;i++){
+                name = item[i].getElementsByClassName("name");
+                if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
+                  item[i].style.display = "flex";
+                }else{
+                  item[i].style.display = "none";
+                }
+              }
+            }
+      </script>
         
     </head>
 <body>
-    안녕하세요 안녕하세요 안녕하세요
+    <div class="menu">
+        
+        <a href="">전체</a><br>
+        <a href="sdf">일반쓰레기</a><br>
+        <a href="">종이류</a><br>
+        <a href="">캔 류</a><br>
+        <a href="">병 류</a><br>
+        <a href="">고철 류</a><br>
+        <a href="">플라스틱 류</a><br>
+        <a href="">스티로폼</a><br>
+        <a href="">비닐류</a><br>
+        <a href="">소형폐가전 제품류</a><br>
+        <a href="">형광등</a><br>
+        <a href="">전지류</a><br>
+        <a href="">섬유류</a>
+
+    </div>
+
+    <div id="hr">
+        <hr class="divider">
+    </div>
+
+    <div class="contents">
+        <!-- search1 -->
+        <!-- <div class="search-box">
+            <input type="text" class="search-txt" name=""placeholder="Type to search">
+            <a class="search-btn" href="#">
+              <i class="fas fa-search"></i><img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
+            </a>
+        </div> -->
+
+        <!-- search2 -->
+        <div class="searchbox">
+            <div class="header">
+              <h1>Search</h1>
+              <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
+            </div>
+      
+            <div class="container">
+      
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">Apple</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">O</span>
+                <span class="name">Orange</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">M</span>
+                <span class="name">Mandarin</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">S</span>
+                <span class="name">Strawberry</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">W</span>
+                <span class="name">Watermelon</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">G</span>
+                <span class="name">Grape</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">P</span>
+                <span class="name">Pear</span>
+              </div>
+      
+              <div class="item">
+                <span class="icon">C</span>
+                <span class="name">Cherry</span>
+              </div>
+            </div>
+          </div>
+    </div>
+    
 </body>
 </html>

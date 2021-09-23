@@ -36,6 +36,7 @@
   .header_logo {
     font-size: 45px;
     color: var(--text-color);
+    text-align: center;
   }
 
   /* 중요 위치 달라짐 */

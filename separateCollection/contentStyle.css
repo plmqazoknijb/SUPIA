@@ -1,0 +1,132 @@
+
+.divider{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 22px;
+    height: 330px;
+    width: 0.03px;
+    background-color: grey;
+}
+
+.menu{
+    text-align: center;
+    float: left;
+    margin: 15px;
+    /* br크기 조절 */
+    line-height:170%
+}
+
+/* search1 */
+/* .search-box{
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    right: 7%;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 30px;
+    transition: 0.4s;
+    width:30px;
+    }
+    .search-box:hover{
+    box-shadow: 0px 0px .5px 1px black;
+    width: 282px;
+    }
+    .search-btn{
+    text-decoration: none;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    }
+    .search-box:hover > .search-btn{
+    background-color: #fff;
+    }
+    .search-txt{
+    display: flex;
+    padding: 0;
+    width: 0px;
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    font-size: 1rem;
+    line-height: 30px;
+    transition: .4s;
+    }
+    .search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+    }
+    
+    img{
+        width: 40px;
+        height: 30px;
+    } */
+
+    /* search2 */
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat";
+      }
+      .searchbox{
+        width: 90%;
+        margin: 10px auto;
+      }
+      .header{
+        background: #ECDFBF;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+      }
+      .header h1{
+        text-transform: uppercase;
+        color: white;
+        margin: 0;
+        margin-bottom: 8px;
+      }
+      #value{
+        border: none;
+        background: #E0D3B6;
+        padding: 6px;
+        font-size: 18px;
+        width: 80%;
+        border-radius: 6px;
+        color: white;
+      }
+      #value:focus{
+        outline: none;
+      }
+      .container{
+        background: #FFFFF5;
+        padding: 1%;
+      }
+      .item{
+        margin: 3% 0px;
+        display: flex;
+        align-items: center;
+      }
+      .icon{
+        width: 25px;
+        height: 25px;
+        background: #E0D3B6;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+      .name{
+        font-size: 17px;
+        font-weight: 470;
+        color: #333;
+      }
