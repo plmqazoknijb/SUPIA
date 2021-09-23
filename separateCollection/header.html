@@ -6,7 +6,17 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./headerfooterStyle.css" />
     <title>수피아</title>
-    <script src="./separateJsp.js" defer></script>
+
+    <script>
+      const searchBtn = document.querySelector(".header_search");
+      const menu = document.querySelector(".header_menu");
+      const icons = document.querySelector(".navbar__icons");
+    
+      searchBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        icons.classList.toggle("active");
+      });
+    </script> 
 </head>
 <body>
     <nav class="header" id="sub_nav">
@@ -21,28 +31,6 @@
           <li><a href="../campaign/acampaign.html">캠페인 및 공모전</a></li>
           <li><a href="">공지사항</a></li>
         </ul>
-  
-        <!-- <ul class="search_icon"> -->
-          <!-- <li><a href=""><i class="search">검색</i></a></li> -->
-          <!-- <li><a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/search--v1.png"/></a></li> -->
-  
-          
-          <!-- <li>
-            <div>
-              <a href=#none id="show" onmouseover="if(hide.style.display=='none'){hide.style.display='';show.innerText=''}else{hide.style.display='none';show.innerText='검색'}">검색</a>
-                <div id="hide" style="display: none">
-                  dsfdsf
-                </div>
-            </div> 
-          </li>
-          
-          
-          <li>
-            <span class='green_window'>
-              <input id=text type="text" class='input_text' name="search" onkeydown="enterSearch()"/></span>
-              <input type="button" class='sch_smit' value="검색" onclick="myFunction()"/>
-          </li>
-        </ul> -->
 
         <ul class="navbar__icons">
           <li><i class="fab fa-twitter"></i></li>
@@ -55,14 +43,5 @@
   
       </nav>
 </body>
-<script>
-  const searchBtn = document.querySelector(".header_search");
-  const menu = document.querySelector(".header_menu");
-  const icons = document.querySelector(".navbar__icons");
 
-  searchBtn.addEventListener("click", () => {
-    menu.classList.toggle("active");
-    icons.classList.toggle("active");
-  });
-</script> 
 </html>
