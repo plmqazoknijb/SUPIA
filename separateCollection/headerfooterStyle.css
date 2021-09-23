@@ -126,7 +126,6 @@
 }
 .col-md{
   display: inline-block;
-  height: 200px;
   margin-right: 50px;
 }
 .row {
@@ -145,14 +144,15 @@ h5{
 @media screen and (max-width: 768px) {
 
   /* 줄어들었을 때 세로정렬 하는 방법 */
+
+  /* .row{
+    display: inline;
+  } */
   
-  /* .py-5{
+  .col-md{
     display: flex;
     align-items: center;
-  }
-
-  .col-md{
     flex-direction: column;
-  } */
+  }
   
 }

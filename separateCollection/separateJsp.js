@@ -1,11 +1,4 @@
-const searchBtn = document.querySelector(".header_search");
-const menu = document.querySelector(".header_menu");
-const icons = document.querySelector(".navbar__icons");
 
-searchBtn.addEventListener("click", () => {
-  menu.classList.toggle("active");
-  icons.classList.toggle("active");
-});
 
 // 검색기능
 // function enterSearch() {
