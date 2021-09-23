@@ -125,6 +125,7 @@
 .py-5{
   background-color: blanchedalmond;
   position: relative;
+  padding: 20px;
 }
 .col-md{
   display: inline-block;
