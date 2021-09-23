@@ -119,35 +119,38 @@
     }
   }
 
-    /* footer.html */
+  
+/* footer.html */
 
 .py-5{
   background-color: blanchedalmond;
+  position: relative;
 }
 .col-md{
   display: inline-block;
-  margin-right: 50px;
+  margin-left: 7%;
 }
 .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+a{
+  text-align: center;
 }
 ul{
   list-style: none;
+  text-align: center;
+  padding: 0%;
+  margin: 10px;
 }
 h5{
   position: relative;
-  left: 40px;
+  margin: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
 
   /* 줄어들었을 때 세로정렬 하는 방법 */
-
-  /* .row{
-    display: inline;
-  } */
   
   .col-md{
     display: flex;
