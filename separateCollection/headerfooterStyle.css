@@ -124,12 +124,11 @@
 
 .py-5{
   background-color: blanchedalmond;
-  position: relative;
+  position: absolute;
   padding: 20px;
 }
 .col-md{
   display: inline-block;
-  margin-left: 7%;
 }
 .row {
   display: flex;
@@ -147,6 +146,9 @@ h5{
   position: relative;
   margin: 15px;
   text-align: center;
+}
+.col-6{
+  margin-left: 7%;
 }
 
 @media screen and (max-width: 768px) {
