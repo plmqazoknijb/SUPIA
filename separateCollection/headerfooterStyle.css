@@ -169,9 +169,10 @@ body{
   width: 24px;
 }
 
-.col-12{
-  /* margin-bottom: 20px; */
-}
+/* .col-12{
+  position: absolute;
+  margin-top: 15px;
+} */
 
 .header_search:hover{
   cursor: pointer;
