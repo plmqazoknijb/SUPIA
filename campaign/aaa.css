@@ -2,7 +2,7 @@
 /* grid */
 .wrapper{
     display: grid;
-    /* grid-template-columns: 200px; */
+    grid-template-columns: 200px;
   }
   .one {
     grid-column: 1 / 4;
@@ -16,8 +16,8 @@
   }
   @media only screen and (max-width: 720px){
     .two {
-      grid-column: 1 / 4;
-      grid-row: 3 / 3;
+      grid-column: 1 / 4 ;
+      grid-row: 3 / 4;
     }
     
   }
