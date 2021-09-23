@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 /* 전체 색 */
 :root {
     --text-color: #86A614;
@@ -21,6 +22,7 @@
   /* 헤더 전체 */
   .header {
     /* position: fixed; */
+    font-family: Gowun Batang;
     display: flex;
     justify-content: space-between; /* 요소 사이에 여유 공간 */
     align-items: center;  /* 수직 센터 */
@@ -30,7 +32,7 @@
   
   /* 수피아 로고 크기 및 밑줄 제거 */
   .header_logo {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Sunflower; */
     font-size: 45px;
     /* margin-left: 20px; */
     color: var(--text-color);
@@ -150,6 +152,12 @@ h5{
 }
 .col-6{
   margin-left: 7%;
+}
+body{
+  margin: 0 auto;
+}
+#a{
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

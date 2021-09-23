@@ -30,10 +30,14 @@
   
 }
 
-  /* contents.html */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+body{
+  font-family: Gowun Batang;
+}
 
-  .up{
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-  }
+/* contents.html */
+.up{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
