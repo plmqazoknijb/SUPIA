@@ -33,6 +33,7 @@
   /* contents.html */
 
   .up{
-    position: absolute;
+    position: fixed;
+    bottom: 5px;
     right: 5px;
   }

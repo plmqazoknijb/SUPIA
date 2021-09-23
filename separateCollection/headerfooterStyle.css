@@ -1,7 +1,7 @@
 /* 전체 색 */
 :root {
     --text-color: #86A614;
-    --backgroun-color: #D6D979;
+    --backgroun-color: rgba(255,255,255,0.5);
     --accent-color: #567317;
   }
   
@@ -20,6 +20,7 @@
 
   /* 헤더 전체 */
   .header {
+    /* position: fixed; */
     display: flex;
     justify-content: space-between; /* 요소 사이에 여유 공간 */
     align-items: center;  /* 수직 센터 */
