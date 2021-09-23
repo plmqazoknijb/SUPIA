@@ -8,11 +8,11 @@
   grid-column: 1 / 5;
 }
 .two {
-  background-color: #567317;
+  /* background-color: #567317; */
   grid-column: 1/2;
 }
 .three {
-  background-color: #BFAC95;
+  /* background-color: #BFAC95; */
   grid-column: 2 / 5;
 }
 .four {
