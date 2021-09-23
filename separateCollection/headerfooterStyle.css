@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 /* 전체 색 */
 :root {
-    --text-color: #86A614;
-    --backgroun-color: rgba(255,255,255,0.5);
-    --accent-color: #567317;
+    /* --text-color: #86A614; */
+    /* --backgroun-color: rgba(255,255,255,0.5); */
+    /* --accent-color: #567317; */
+    --accent-color: #4a7443;
   }
   
   /* 웹사이트 전체 설정*/
   body {
     box-sizing: border-box;
     margin: 0;
-    /* font-family: "Source Sans Pro"; */
   }
   
   /* 링크 색, 밑줄 없애기 */
@@ -21,20 +21,20 @@
 
   /* 헤더 전체 */
   .header {
-    /* position: fixed; */
+    color: white;
     font-family: Gowun Batang;
     display: flex;
     justify-content: space-between; /* 요소 사이에 여유 공간 */
     align-items: center;  /* 수직 센터 */
-    background-color: var(--backgroun-color); /* 헤더 배경 색 */
+    /* 헤더 배경 색 */
+    /* background-color: var(--backgroun-color);  */
+    background-color: #619658;
     padding: 8px 12px;
   }
   
   /* 수피아 로고 크기 및 밑줄 제거 */
   .header_logo {
-    /* font-family: Sunflower; */
     font-size: 45px;
-    /* margin-left: 20px; */
     color: var(--text-color);
   }
 
@@ -66,9 +66,9 @@
 
 
   /* 이ㅓㄳ도 없 */
-  .search_icon li {
+  /* .search_icon li {
     padding: 8px 4px;
-  }
+  } */
   
   /* 줄었을 때 나타남 */
   .header_search {
@@ -124,11 +124,15 @@
 
   
 /* footer.html */
-
-.py-5{
+/* .py-5{
   background-color: blanchedalmond;
   position: absolute;
   padding: 20px;
+} */
+#footer{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .col-md{
   display: inline-block;
@@ -142,8 +146,9 @@ a{
 ul{
   list-style: none;
   text-align: center;
+  /* 지우지 말기 */
   padding: 0%;
-  margin: 10px;
+  /* margin: 10px; */
 }
 h5{
   position: relative;
@@ -151,23 +156,32 @@ h5{
   text-align: center;
 }
 .col-6{
+  /* 간격 */
   margin-left: 7%;
 }
+
 body{
-  margin: 0 auto;
+  color: gray;
+  /* margin: 0 auto; */
 }
-#a{
-  text-align: center;
+
+#img{
+  width: 24px;
 }
+
+.col-12{
+  /* margin-bottom: 20px; */
+}
+
 
 @media screen and (max-width: 768px) {
 
   /* 줄어들었을 때 세로정렬 하는 방법 */
-  
   .col-md{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-left: 7%;
   }
   
 }
