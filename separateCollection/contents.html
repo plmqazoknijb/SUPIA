@@ -4,108 +4,90 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./contentStyle.css" />
         <title>수피아</title>
-        <!-- 검색 스크립트 -->
-        <script type="text/javascript">
-            function filter(){
-      
-              var value, name, item, i;
-      
-              value = document.getElementById("value").value.toUpperCase();
-              item = document.getElementsByClassName("item");
-      
-              for(i=0;i<item.length;i++){
-                name = item[i].getElementsByClassName("name");
-                if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
-                  item[i].style.display = "flex";
-                }else{
-                  item[i].style.display = "none";
-                }
-              }
-            }
-      </script>
+        
         
     </head>
 <body>
     <div class="menu">
 
-        <h4>쓰레기 종류</h4>
+        <h4>종류</h4>
         <a onclick = "fetch('totality.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">전체</a>
+            });" class="underline">전체</a>
             <br>
         <a onclick = "fetch('generalwaste.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">일반쓰레기</a>
+            });" class="underline">일반쓰레기</a>
             <br>
         <a onclick = "fetch('paper.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">종이류</a>
+            });" class="underline">종이류</a>
             <br>
         <a onclick = "fetch('cans.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">캔 류</a>
+            });" class="underline">캔 류</a>
             <br>
         <a onclick = "fetch('bottle.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">병 류</a>
+            });" class="underline">병 류</a>
             <br>
         <a onclick = "fetch('metal.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">고철 류</a> 
+            });" class="underline">고철 류</a> 
             <br>           
         <a onclick = "fetch('plastic.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">플라스틱 류</a>
+            });" class="underline">플라스틱 류</a>
             <br>
         <a onclick = "fetch('styrofoam.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">스티로폼 류</a>
+            });" class="underline">스티로폼 류</a>
             <br>
         <a onclick = "fetch('vinyl.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">비닐 류</a>
+            });" class="underline">비닐 류</a>
             <br>
         <a onclick = "fetch('homewaste.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">소형폐가전 제품류</a>
+            });" class="underline">소형폐가전 제품류</a>
             <br>
         <a onclick = "fetch('lamp.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">형광등</a>
+            });" class="underline">형광등</a>
             <br>
         <a onclick = "fetch('battery.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">전지류</a>  
+            });" class="underline">전지류</a>  
             <br>          
         <a onclick = "fetch('fiber.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });">섬유류</a>
+            });" class="underline">섬유류</a>
 
     </div>
 
@@ -114,16 +96,6 @@
     </div>
 
     <div id="d"></div>
-
-    <!-- search1 -->
-    <div class="search-box">
-        <input type="text" class="search-txt" name=""placeholder="Type to search">
-        <a class="search-btn" href="#">
-          <i class="fas fa-search">
-          <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
-          </i>
-        </a>
-    </div>
     
 </body>
 </html>
