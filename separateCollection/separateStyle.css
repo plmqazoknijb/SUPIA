@@ -2,40 +2,20 @@
 .wrapper{
   display: grid;
   grid-template-columns: 200px;
-  /* grid-template-rows: 80px * 50px; */
 }
 .one {
   grid-column: 1 / 4;
 }
-/* .two {
-  grid-column: 1/2;
-} */
 .three {
   grid-column: 1 / 4;
 }
 .four {
   grid-column: 1 / 4;
 }
-/* @media only screen and (max-width: 720px){
-  .two {
-   grid-column: 1 / 5;
-   grid-row: 2 / 3;
-  } 
-  .three {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
-  }
-  
-} */
 
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 body{
   font-family: Gowun Batang;
 }
 
-/* up */
-.up{
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
-}
+

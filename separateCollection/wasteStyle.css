@@ -1,0 +1,38 @@
+/* #generalwaste{
+    background-color:  #63A358;
+    background-size: 100px;
+} */
+
+#generalh3{
+    text-align: center;
+}
+
+.general-ul-1{
+    text-align: left;
+    list-style: none;
+}
+
+.generalkindsall{
+    text-align: center;
+}
+
+.general-ul{
+    text-align: left;
+}
+
+.general-ul-2{
+    display: inline-block;
+    margin-right: 5%;
+}
+.general-ul-3{
+    display: inline-block;
+    margin-right: 5%;
+}
+.general-ul-4{
+    display: inline-block;
+    margin-right: 5%;
+}
+.general-ul-5{
+    display: inline-block;
+}
+
