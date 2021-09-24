@@ -1,9 +1,4 @@
-/* #generalwaste{
-    background-color:  #63A358;
-    background-size: 100px;
-} */
-
-.general1{
+.general{
     margin-left: 13%;
 }
 
@@ -62,7 +57,6 @@
     color: crimson;
 }
 
-
 .to-right-underline{
     position: relative;
   }
@@ -90,9 +84,6 @@
     background-size: 100% 50%;
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
-  }
-  .highlight:hover{
-    background-size: 100% 100%;
   }
 
 
