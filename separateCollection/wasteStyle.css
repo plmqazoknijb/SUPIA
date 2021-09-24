@@ -54,3 +54,78 @@
     margin-right: 4%;
 }
 
+.generalcontents{
+    cursor: pointer;
+}
+
+#money{
+    color: crimson;
+}
+
+
+.to-right-underline{
+    position: relative;
+  }
+  .to-right-underline:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #5b8a53;
+  }
+  .to-right-underline:hover:after{
+    width: 100%;
+    opacity: 1;
+  }
+
+  .highlight {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+  }
+  .highlight:hover{
+    background-size: 100% 100%;
+  }
+
+
+.general-li-2:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.general-li-3:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.general-li-4:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.general-li-5:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.general-li-6:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.general-li-7:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.general-li-8:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+
+.source{
+    text-align: center;
+    font-size: xx-small;
+}

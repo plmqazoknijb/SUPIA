@@ -44,6 +44,14 @@
   left: 0; 
 }
 
+.maincontentsul{
+  text-align: left;
+}
+
+.fourth{
+  margin-left: 12.5%;
+}
+
 
 @media screen and (max-width: 768px) {
 
