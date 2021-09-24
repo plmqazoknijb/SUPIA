@@ -3,6 +3,10 @@
     background-size: 100px;
 } */
 
+.general1{
+    margin-left: 13%;
+}
+
 #generalh3{
     text-align: center;
 }
@@ -22,17 +26,31 @@
 
 .general-ul-2{
     display: inline-block;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 4%;
 }
 .general-ul-3{
     display: inline-block;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 .general-ul-4{
     display: inline-block;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 .general-ul-5{
     display: inline-block;
+    margin-right: 4%;
+}
+.general-ul-6{
+    display: inline-block;
+    margin-right: 4%;
+}
+.general-ul-7{
+    display: inline-block;
+    margin-right: 4%;
+}
+.general-ul-8{
+    display: inline-block;
+    margin-right: 4%;
 }
 
