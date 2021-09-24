@@ -58,12 +58,12 @@
   }
   
   /* 굳이 필요없는 듯 */
-  .search_icon {
+  /* .search_icon {
     display: flex;
     list-style: none;
     color: var(--text-color);
     padding-left: 0;
-  }
+  } */
 
 
   /* 이ㅓㄳ도 없 */
@@ -191,4 +191,11 @@ h5{
     margin-left: 7%;
   }
   
+}
+
+/* up */
+.up{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
 }

@@ -4,8 +4,6 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./contentStyle.css" />
         <title>수피아</title>
-        
-        
     </head>
 <body>
     <div class="menu">
@@ -65,29 +63,11 @@
             })
             });" class="underline">비닐 류</a>
             <br>
-        <a onclick = "fetch('homewaste.html').then(function(response){
+        <a onclick = "fetch('etc.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
-            });" class="underline">소형폐가전 제품류</a>
-            <br>
-        <a onclick = "fetch('lamp.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">형광등</a>
-            <br>
-        <a onclick = "fetch('battery.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">전지류</a>  
-            <br>          
-        <a onclick = "fetch('fiber.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">섬유류</a>
+            });" class="underline">기타</a>
 
     </div>
 
