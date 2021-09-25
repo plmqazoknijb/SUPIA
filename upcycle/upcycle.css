@@ -39,3 +39,21 @@ body{
     
   }
   
+  /* u_info_menu */
+.Ex h1{
+  font-size: 50px;
+}
+.Ex p{
+  font-size: 17px;
+  margin: 0;
+  margin-left: 30px;
+}
+.red{
+  color: rgb(212, 69, 69);
+}
+.back{
+  margin-left: 100px;
+}
+.end{
+  font-size: 30px;
+}
