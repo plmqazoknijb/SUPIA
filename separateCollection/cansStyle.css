@@ -1,10 +1,10 @@
-  .highlight {
+.highlight {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
     background-size: 100% 50%;
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
-  }
+}
 
 .cans{
     margin-left: 13%;
@@ -16,16 +16,6 @@
 
 .cans-ul-0{
   text-align: left;
-}
-
-.cans-ul-1{
-  text-align: center;
-}
-
-.cans-ul{
-  display: inline-block;
-  text-align: left;
-  margin-right: 5%;
 }
 
 #tip{
@@ -54,19 +44,9 @@
     opacity: 1;
   }
 
-  .cans-li-1:hover{
-    color: grey;
-    cursor: pointer;
-  }
-  .cans-li-2:hover{
-    color: grey;
-    cursor: pointer;
-  }
-  .cans-li-3:hover{
-    color: forestgreen;
-    cursor: pointer;
-  }
-
+#canmetalhr{
+    width: 75%;
+}
 
   /* 고철 */
 .metal{
@@ -81,51 +61,25 @@
   text-align: left;
 }
 
-.metal-ul-1{
-  text-align: center;
-}
-
-.metal-ul{
+.cans-ul{
   display: inline-block;
   text-align: left;
   margin-right: 15%;
 }
 
-#tip{
-  color: crimson;
-}
-
-
-.to-right-underline{
-    position: relative;
-  }
-  .to-right-underline:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 0px;
-    height: 2px;
-    margin: 5px 0 0;
-    transition: all 0.2s ease-in-out;
-    transition-duration: 0.3s;
-    opacity: 0;
-    background-color: #5b8a53;
-  }
-  .to-right-underline:hover:after{
-    width: 100%;
-    opacity: 1;
+  .cans-ul-1{
+    text-align: center;
   }
 
-  .metal-li-1:hover{
-    color: grey;
+  .cans-li-1:hover{
+    color: cadetblue;
     cursor: pointer;
   }
-  .metal-li-2:hover{
-    color: grey;
+  .cans-li-2:hover{
+    color: cadetblue;
     cursor: pointer;
   }
-  .metal-li-3:hover{
-    color: forestgreen;
+  .cans-li-3:hover{
+    color: cadetblue;
     cursor: pointer;
   }

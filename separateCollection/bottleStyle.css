@@ -1,0 +1,96 @@
+.highlight {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.bottle{
+    margin-left: 13%;
+}
+
+#bottleh32{
+    text-align: center;
+}
+
+.bottle-ul-0{
+  text-align: left;
+}
+
+#tip{
+  color: crimson;
+}
+
+#summarytip{
+    color: rgb(82, 81, 81);
+}
+
+.bottlekindsall{
+    text-align: center;
+}
+
+.bottleul{
+    text-align: center;
+}
+
+.bottle-li-1{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-2{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-3{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-4{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-5{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-6{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-7{
+    display: inline-block;
+    text-align: left;
+    margin-right: 5%;
+}
+.bottle-li-8{
+    display: inline-block;
+    text-align: left;
+}
+
+.to-right-underline{
+    position: relative;
+  }
+  .to-right-underline:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #5b8a53;
+  }
+  .to-right-underline:hover:after{
+    width: 100%;
+    opacity: 1;
+  }
