@@ -6,7 +6,7 @@
   
 /* 웹사이트 전체 설정*/
 body {
-  position: absolute;
+  font-family: Gowun Batang;
   box-sizing: border-box;
   width: 100vw;
   margin: 0;
@@ -22,7 +22,6 @@ a {
 /* 헤더 전체 */
 .header {
   color: white;
-  font-family: Gowun Batang;
   display: flex;
   justify-content: space-between; /* 요소 사이에 여유 공간 */
   align-items: center;  /* 수직 센터 */
@@ -34,7 +33,6 @@ a {
 .header_logo {
   font-size: 45px;
   color: var(--text-color);
-  margin-left: 1%;
 }
 
 /* 중요 위치 달라짐 */
