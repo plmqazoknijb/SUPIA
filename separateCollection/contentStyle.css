@@ -1,3 +1,12 @@
+/* 제목 효과 */
+.highlight {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+/* 전체 조절 */
 .menu{
   text-align: center;
   float: left;
@@ -7,29 +16,17 @@
   line-height:170%
 }
 
-.divider{
-    margin-left: 1%;
-    margin-right: 2%;
-    margin-top: 2%;
-    height: 250px;
-    width: 0.03px;
-    background-color: grey;
-    float: left;
-}
-
-/* #d{
-  margin-left:13%;
-} */
-
+/* 메뉴 글자 갖다댈 때 밑줄 */
 .underline {
   text-decoration: none;
   display: inline-block;
   position: relative;
   cursor: pointer;
 }
+
 .underline:after {    
-  /* background: none repeat scroll 0 0 transparent; */
-  /* bottom: 0; */
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
   content: "";
   display: block;
   height: 2px;
@@ -44,15 +41,25 @@
   left: 0; 
 }
 
+/* 수직선 */
+.divider{
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+    height: 250px;
+    width: 0.03px;
+    background-color: grey;
+    float: left;
+}
+
+/* 분리수거 메인 화면 */
 .maincontentsul{
   text-align: left;
   margin-left: 12.5%;
 }
 
-
+/* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
-
-  /* 줄어들었을 때 세로정렬 하는 방법 */
 
   .maincontentsul{
     text-align: left;

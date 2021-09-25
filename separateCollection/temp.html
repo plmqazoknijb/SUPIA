@@ -3,7 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./totalityStyle.css" />
     <title>Document</title>
+
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+  }
+  .searchbox{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .header{
+    background: #ECDFBF;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+  }
+  .header h1{
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  #value{
+    border: none;
+    background: #E0D3B6;
+    padding: 6px;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 6px;
+    color: white;
+  }
+  #value:focus{
+    outline: none;
+  }
+  .container{
+    background: #FFFFF5;
+    padding: 1%;
+  }
+  .item{
+    margin: 3% 0px;
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    width: 25px;
+    height: 25px;
+    background: #E0D3B6;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .name{
+    font-size: 17px;
+    font-weight: 470;
+    color: #333;
+  }
+    </style>
+
     <script type="text/javascript">
         function filter(){
   
@@ -22,78 +85,57 @@
           }
         }
   </script>
+
 </head>
 <body>
-
-<!-- search1 -->
-<!-- <div class="search-box">
-    <input type="text" class="search-txt" name=""placeholder="Type to search">
-    <a class="search-btn" href="#">
-      <i class="fas fa-search">
-      <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
-      </i>
-    </a>
-</div> -->
-
-    <!-- search2 -->
-        <div class="searchbox">
-            <div class="hheader">
-              <h1>검색</h1>
-              <input class="search-txt" onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
-              <!-- <a class="search-btn" href="#"> -->
-                <src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
-              <!-- </a> -->
-            </div>
-            <!-- <input type="text" class="search-txt" onkeyup="filter()" placeholder="Type to search">
-            <a class="search-btn" href="#">
-                <i class="fas fa-search">
-                <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/>
-                </i>
-            </a> -->
-      
-            <div class="container">
-      
-              <div class="item">
-                <span class="icon">A</span>
-                <span class="name">Apple</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">O</span>
-                <span class="name">Orange</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">M</span>
-                <span class="name">Mandarin</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">S</span>
-                <span class="name">Strawberry</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">W</span>
-                <span class="name">Watermelon</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">G</span>
-                <span class="name">Grape</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">P</span>
-                <span class="name">Pear</span>
-              </div>
-      
-              <div class="item">
-                <span class="icon">C</span>
-                <span class="name">Cherry</span>
-              </div>
-            </div>
-          </div>
-    </div>
-</body>
+    <div class="searchbox">
+       <div class="header">
+         <h1>Search</h1>
+         <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
+       </div>
+ 
+       <div class="container">
+ 
+         <div class="item">
+           <span class="icon">A</span>
+           <span class="name">Apple</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">O</span>
+           <span class="name">Orange</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">M</span>
+           <span class="name">Mandarin</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">S</span>
+           <span class="name">Strawberry</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">W</span>
+           <span class="name">Watermelon</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">G</span>
+           <span class="name">Grape</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">P</span>
+           <span class="name">Pear</span>
+         </div>
+ 
+         <div class="item">
+           <span class="icon">C</span>
+           <span class="name">Cherry</span>
+         </div>
+       </div>
+     </div>
+ </body>
 </html>
