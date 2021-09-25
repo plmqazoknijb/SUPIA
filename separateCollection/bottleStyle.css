@@ -1,3 +1,4 @@
+/* 제목 효과 */
 .highlight {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
@@ -6,48 +7,57 @@
     transition: background-size 0.25s ease-in;
 }
 
-p{
-    margin-left: 2%;
-}
-
+/* 전체 오른쪽으로 띄우기 */
 .bottle{
     margin-left: 13%;
 }
 
-#bottleh32{
-    text-align: center;
-}
-
+/* 비닐 배출방법 왼쪽 정렬 */
 .bottle-ul-0{
-  text-align: left;
-}
+    text-align: left;
+  }
 
+/* tip제목 글자 색 변경 */
 #tip{
-  color: crimson;
-}
-summary{
-    cursor: pointer;
-}
-.bottledetails{
-    margin-left: 4%;
+    color: crimson;
 }
 
+/* tip안 p 글자 색 변경 */
 #summarytip{
     color: rgb(82, 81, 81);
 }
 
-.bottlekindsall{
-    text-align: center;
+/* details 안 글 오른쪽으로 살짝 이동 */
+p{
+    margin-left: 2%;
 }
 
+/* details 눌렀을 때 커서 변경 */
+summary{
+    cursor: pointer;
+}
+
+/* 비닐로 배출하면 안되는 품목 details 한칸 띄우기 */
+.bottledetails{
+    margin-left: 4%;
+}
+
+/* 수평선 */
 #bottlehr{
     width: 75%;
 }
 
+/* 모아보기 제목 센터 */
+#bottleh32{
+    text-align: center;
+}
+
+/* 모아보기 전체 오른쪽 여백 및 글자 왼쪽 정렬 */
 .bottleul{
     text-align: center;
 }
 
+/* 모아보기 눌렀을 때 색과 커서 포인터 */
 .bottle-li-1{
     display: inline-block;
     text-align: left;
@@ -121,30 +131,8 @@ summary{
     cursor: pointer;
 }
 
-.to-right-underline{
-    position: relative;
-  }
-  .to-right-underline:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 0px;
-    height: 2px;
-    margin: 5px 0 0;
-    transition: all 0.2s ease-in-out;
-    transition-duration: 0.3s;
-    opacity: 0;
-    background-color: #5b8a53;
-  }
-  .to-right-underline:hover:after{
-    width: 100%;
-    opacity: 1;
-  }
-
+/* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
-
-    /* 줄어들었을 때 세로정렬 하는 방법 */
   
     .bottle{
       text-align: left;

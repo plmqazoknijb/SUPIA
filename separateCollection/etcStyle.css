@@ -1,3 +1,4 @@
+/* 제목 효과 */
 .highlight {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     background-repeat: no-repeat;
@@ -6,119 +7,94 @@
     transition: background-size 0.25s ease-in;
 }
 
-p{
-    margin-left: 2%;
-}
-
-#vinylhr{
-    width: 75%;
-}
-
-.etcmachine{
-    text-align: left;
-}
-
-.etcdetails{
-    margin-left: 4%;
-}
-
+/* 전체 오른쪽으로 띄우기 */
 .etc{
     margin-left: 13%;
 }
 
+/* 기타 품목들 제목 센터 */
 .etch3{
     text-align: left;
 }
 
-#etch32{
-    text-align: center;
-}
-
+/* 기타 배출방법 왼쪽 정렬 */
 .etc-ul-0{
-  text-align: left;
+    text-align: left;
 }
 
-#summarylink{
-    color: darkblue;
-}
-
+/* tip제목 글자 색 변경 */
 #tip{
-  color: crimson;
+    color: crimson;
+}
+  
+/* tip안 p 글자 색 변경 */
+#summarytip{
+    color: rgb(82, 81, 81);
+}
+  
+/* details 안 글 오른쪽으로 살짝 이동 */
+p{
+    margin-left: 2%;
 }
 
+/* details 눌렀을 때 커서 변경 */
 summary{
     cursor: pointer;
 }
 
-#summarytip{
-    color: rgb(82, 81, 81);
+/* 대형 폐가전 왼쪽 정렬 */
+.etcmachine{
+    text-align: left;
 }
 
-.etckindsall{
-    text-align: center;
+/* 대형 폐가전 링크 */
+#summarylink{
+    color: darkblue;
 }
-
+  
+/* 수평선 */
 #etchr{
     width: 75%;
 }
 
-.etcul{
+/* 모아보기 제목 센터 */
+#etch32{
     text-align: center;
 }
 
+/* 모아보기 전체 오른쪽 여백 및 글자 왼쪽 정렬 */
 .etc-ul{
     display: inline-block;
     text-align: left;
     margin-right: 10%;
-  }
+}
   
-    .etc-ul-1{
-      text-align: center;
-    }
+/* 모아보기 전체 중간 정렬 */
+.etc-ul-1{
+    text-align: center;
+}
   
-    .etc-li-1:hover{
-      color: cadetblue;
-      cursor: pointer;
-    }
-    .etc-li-2:hover{
-      color: cadetblue;
-      cursor: pointer;
-    }
-    .etc-li-3:hover{
-      color: cadetblue;
-      cursor: pointer;
-    }
-    .etc-li-4:hover{
-      color: cadetblue;
-      cursor: pointer;
-    }
+/* 모아보기 눌렀을 때 색과 커서 포인터 */
+.etc-li-1:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.etc-li-2:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.etc-li-3:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.etc-li-4:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
 
-
-.to-right-underline{
-    position: relative;
-  }
-  .to-right-underline:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 0px;
-    height: 2px;
-    margin: 5px 0 0;
-    transition: all 0.2s ease-in-out;
-    transition-duration: 0.3s;
-    opacity: 0;
-    background-color: #5b8a53;
-  }
-  .to-right-underline:hover:after{
-    width: 100%;
-    opacity: 1;
-  }
-
+/* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
 
-    /* 줄어들었을 때 세로정렬 하는 방법 */
-  
     .etc{
       text-align: left;
       margin-left: 20%;
