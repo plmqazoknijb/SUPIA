@@ -1,14 +1,13 @@
-.general{
+.general1{
     margin-left: 13%;
 }
 
-#generalh3{
+/* #generalh3{
     text-align: center;
-}
+} */
 
 .general-ul-1{
     text-align: left;
-    list-style: none;
 }
 
 .generalkindsall{
@@ -49,7 +48,7 @@
     margin-right: 4%;
 }
 
-.generalcontents{
+summary{
     cursor: pointer;
 }
 
@@ -87,7 +86,7 @@
   }
 
 
-.general-li-2:hover{
+.general-li:hover{
     color: cadetblue;
     cursor: pointer;
 }
