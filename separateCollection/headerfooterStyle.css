@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   width: 100vw;
   margin: 0;
+  overflow-x: hidden;
 }
   
 /* 링크 색, 밑줄 없애기 */
