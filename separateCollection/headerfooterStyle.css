@@ -28,6 +28,10 @@ a {
   background-color: #619658;
   padding: 8px 12px;
 }
+
+.headermenu{
+  margin-left: -12%;
+}
   
 /* 수피아 로고 크기 및 밑줄 제거 */
 .header_logo {
