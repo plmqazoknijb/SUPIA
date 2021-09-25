@@ -31,6 +31,9 @@
 #tip{
   color: crimson;
 }
+#summarytip{
+  color: rgb(82, 81, 81);
+}
 
 
 .to-right-underline{
@@ -55,14 +58,14 @@
   }
 
   .paper-li-1:hover{
-    color: grey;
+    color: cadetblue;
     cursor: pointer;
   }
   .paper-li-2:hover{
-    color: grey;
+    color: cadetblue;
     cursor: pointer;
   }
   .paper-li-3:hover{
-    color: forestgreen;
+    color: cadetblue;
     cursor: pointer;
   }
