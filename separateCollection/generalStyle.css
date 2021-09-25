@@ -56,6 +56,10 @@ summary{
     color: crimson;
 }
 
+#generalhr{
+    width: 75%;
+}
+
 .to-right-underline{
     position: relative;
   }

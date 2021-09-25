@@ -6,20 +6,65 @@
     transition: background-size 0.25s ease-in;
 }
 
-.cans{
+p{
+    margin-left: 2%;
+}
+
+.vinyldetails{
+    margin-left: 4%;
+}
+
+.vinyl{
     margin-left: 13%;
 }
 
-#cansh32{
+#vinylh32{
     text-align: center;
 }
 
-.cans-ul-0{
+.vinyl-ul-0{
   text-align: left;
 }
 
 #tip{
   color: crimson;
+}
+
+summary{
+    cursor: pointer;
+}
+
+#summarytip{
+    color: rgb(82, 81, 81);
+}
+
+.vinylkindsall{
+    text-align: center;
+}
+
+#vinylhr{
+    width: 75%;
+}
+
+.vinylul{
+    text-align: center;
+}
+
+.vinyl-ul{
+    display: inline-block;
+    margin-right: 12%;
+}
+.vinyl-ul-1{
+    text-align: center;
+}
+  
+.vinyl-li-1:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+.vinyl-li-2:hover{
+    color: cadetblue;
+    cursor: pointer;
 }
 
 
@@ -42,48 +87,4 @@
   .to-right-underline:hover:after{
     width: 100%;
     opacity: 1;
-  }
-
-#canmetalhr{
-    width: 75%;
-}
-
-  /* 고철 */
-.metal{
-    margin-left: 13%;
-}
-
-#metalh32{
-    text-align: center;
-}
-
-.metal-ul-0{
-  text-align: left;
-}
-
-.cans-ul{
-  display: inline-block;
-  text-align: left;
-  margin-right: 15%;
-}
-
-  .cans-ul-1{
-    text-align: center;
-  }
-
-  .cans-li-1:hover{
-    color: cadetblue;
-    cursor: pointer;
-  }
-  .cans-li-2:hover{
-    color: cadetblue;
-    cursor: pointer;
-  }
-  .cans-li-3:hover{
-    color: cadetblue;
-    cursor: pointer;
-  }
-  .cans-li-4:hover{
-    color: cadetblue;
-    cursor: pointer;
   }
