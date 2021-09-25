@@ -1,22 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+body{
+  font-family: Gowun Batang;
+}
 /*make of grid*/
-body {
-    margin: 0px;
-    
-  }
+#wrap{
+  font-size: 20px;
+  overflow:  hidden;
+  text-align: center;
+  padding-top: 45px;
+}
+#wrap a{
+  text-decoration: none; color: rgb(59, 146, 56);
+}
+
+/* #wrap a:visited{color: rgb(23, 223, 70); text-decoration: underline;} */
+#wrap a:hover{color:rgb(100, 206, 70); text-decoration: none;}
+#wrap div{
+  display: inline-block;
+  text-align: center;
+}
+.b div{
+  padding: 20px;
   
-  .wrapper {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-column-gap: 230px;
-    grid-row-gap: 100px;
-    
-    
-  }
+}
+#wrap img{
+    width:200px; height:200px;
+}
   
+.inf{
+  margin: 0;
+  font-size: 15px;
+}
   .box {
     border-radius: 5px;
     padding: 20px;
-    font-size: 150%;
+    width: 270px;
+    height: 400px;
     
   }
   
