@@ -88,3 +88,20 @@ summary{
     width: 100%;
     opacity: 1;
   }
+
+@media screen and (max-width: 768px) {
+
+    /* 줄어들었을 때 세로정렬 하는 방법 */
+  
+    .vinyl{
+      text-align: left;
+      margin-left: 20%;
+    }
+
+    .vinyl-ul{
+        display: inline-block;
+        margin-left: 8%;
+        margin-right: 15%;
+    }
+   
+}

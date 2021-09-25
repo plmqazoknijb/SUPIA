@@ -123,3 +123,14 @@ summary{
     text-align: center;
     font-size: xx-small;
 }
+
+@media screen and (max-width: 768px) {
+
+    /* 줄어들었을 때 세로정렬 하는 방법 */
+  
+    .general1{
+      text-align: left;
+      margin-left: 20%;
+    }
+   
+  }

@@ -85,3 +85,20 @@ summary{
     color: cadetblue;
     cursor: pointer;
   }
+
+@media screen and (max-width: 768px) {
+
+    /* 줄어들었을 때 세로정렬 하는 방법 */
+  
+    .paper{
+      text-align: left;
+      margin-left: 20%;
+    }
+
+    .paper-ul{
+      display: inline-block;
+      text-align: left;
+      margin-right: 14%;
+    }
+   
+  }

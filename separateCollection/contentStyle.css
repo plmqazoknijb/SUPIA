@@ -10,8 +10,8 @@
 .divider{
     margin-left: 1%;
     margin-right: 2%;
-    margin-top: 3%;
-    height: 300px;
+    margin-top: 2%;
+    height: 250px;
     width: 0.03px;
     background-color: grey;
     float: left;
@@ -46,9 +46,6 @@
 
 .maincontentsul{
   text-align: left;
-}
-
-.fourth{
   margin-left: 12.5%;
 }
 
@@ -56,16 +53,10 @@
 @media screen and (max-width: 768px) {
 
   /* 줄어들었을 때 세로정렬 하는 방법 */
-  /* .menu{
-    float: bottom;
+
+  .maincontentsul{
+    text-align: left;
+    margin-left: 22%;
   }
-  .divider{
-    float: top;
-    height: 0.3px;
-    width: 400px;
-  }
-  #d{
-    float: top;
-  } */
  
 }
