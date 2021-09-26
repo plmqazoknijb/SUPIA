@@ -7,13 +7,16 @@ body{
   font-size: 20px;
   overflow:  hidden;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 0%;
+  margin-bottom: 5%;
 }
 #wrap a{
   text-decoration: none; color: rgb(59, 146, 56);
   
 }
-
+#wrap b{
+  margin-bottom: 0%;
+}
 /* #wrap a:visited{color: rgb(23, 223, 70); text-decoration: underline;} */
 #wrap a:hover{color:rgb(100, 206, 70); text-decoration: none;}
 #wrap div{
@@ -73,6 +76,7 @@ body{
   text-align: center;
   margin-top: 2%;
   font-size: 20px;
+  margin-bottom: 0%;
 }
 
 @media screen and (max-width: 968px){
