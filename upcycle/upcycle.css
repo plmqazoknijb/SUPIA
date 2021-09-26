@@ -39,20 +39,20 @@ body{
     
   }
   
-  /* u_info_menu */
+  
 .Ex h1{
   font-size: 50px;
 }
 .Ex p{
   font-size: 17px;
-  margin: 0.5%;
-  margin-left: 30px;
+
+
 }
 .red{
   color: rgb(212, 69, 69);
 }
 .back{
-  margin-left: 100px;
+
 }
 
 .link{
@@ -62,17 +62,8 @@ body{
 
 .Ex{
   text-align: center;
-  margin-right: 10%;
-  
 }
 
-.Ex h3{
-  font-size: 30px;
-  margin-left: 45%;
-  width: 150px;
+.point{
+  color: rgb(214, 73, 73);
 }
-
-.Ex h3:hover{
-  background-color: rgba(118, 170, 117, 0.575);
-}
-
