@@ -65,7 +65,7 @@ body{
 .point{
   color: rgb(214, 73, 73);
 }
-hr{
+.s{
   margin-top: 3%;
   width: 75%;
 }
@@ -73,4 +73,16 @@ hr{
   text-align: center;
   margin-top: 2%;
   font-size: 20px;
+}
+
+@media screen and (max-width: 968px){
+  .mid {
+    grid-column: 1 / 4 ;
+    grid-row: 3 / 4;
+  }
+  .title{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
 }
