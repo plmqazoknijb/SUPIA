@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .paper{
-  margin-left: 13%;
+  margin-left: 15%;
 }
 
 /* 비닐 배출방법 왼쪽 정렬 */
@@ -37,7 +37,7 @@ summary{
   cursor: pointer;
 }
 
-/* 비닐로 배출하면 안되는 품목 details 한칸 띄우기 */
+/* 종이로 배출하면 안되는 품목 details 한칸 띄우기 */
 .paperdetails{
   margin-left: 4%;
 }
@@ -78,18 +78,39 @@ summary{
   cursor: pointer;
 }
 
+/* 글자 밑줄 애니메이션 */
+.to-right-underline{
+  position: relative;
+}
+.to-right-underline:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0px;
+  height: 2px;
+  margin: 5px 0 0;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.3s;
+  opacity: 0;
+  background-color: #5b8a53;
+}
+.to-right-underline:hover:after{
+  width: 100%;
+  opacity: 1;
+}
+
 /* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
   
     .paper{
-      text-align: left;
-      margin-left: 20%;
+      margin-right: 15%;
     }
 
     .paper-ul{
       display: inline-block;
       text-align: left;
-      margin-right: 14%;
+      margin-right: 5%;
     }
    
   }
