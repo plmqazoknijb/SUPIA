@@ -54,6 +54,23 @@ body{
 .back{
   margin-left: 100px;
 }
-.end{
-  font-size: 30px;
+
+.link{
+  color: rgb(148, 50, 148);
+  text-decoration: underline;
 }
+
+.Ex{
+  text-align: center;
+}
+
+.Ex h3{
+  font-size: 30px;
+  margin-left: 650px;
+  width: 150px;
+}
+
+.Ex h3:hover{
+  background-color: rgba(118, 170, 117, 0.575);
+}
+
