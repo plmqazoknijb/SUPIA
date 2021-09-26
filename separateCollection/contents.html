@@ -15,6 +15,12 @@
             })
             });" class="underline">전체</a>
             <br> -->
+        <a onclick = "fetch('separatebase.html').then(function(response){
+            response.text().then(function(text){
+            document.querySelector('#d').innerHTML=text;
+            })
+            });" class="underline">분리배출의 기본</a>
+            <br>
         <a onclick = "fetch('generalwaste.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
@@ -64,7 +70,7 @@
     </div>
 
     <div id="d">
-        <div class="maincontents">
+        <div class="maincontents" id="maincontent">
             <h2><span class="highlight">분리배출의 기본 4가지</span></h2>
             <ul class="maincontentsul">
                 <li class="maincontentsli"><h3 class="maincontentsh3">비운다.</h3></li>

@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .vinyl{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 /* 비닐 배출방법 왼쪽 정렬 */
@@ -78,14 +78,13 @@ summary{
 @media screen and (max-width: 768px) {
   
     .vinyl{
-      text-align: left;
-      margin-left: 20%;
+        margin-right: 15%;
     }
 
     .vinyl-ul{
         display: inline-block;
-        margin-left: 8%;
-        margin-right: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
    
 }

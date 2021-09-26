@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .plastic{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 /* 플라스틱 배출방법 왼쪽 정렬 */
@@ -61,7 +61,8 @@ summary{
 
 /* 모아보기 전체 중간 정렬 */
 .plastic-ul-1{
-    text-align: center;
+    /* text-align: center; */
+    margin-right: 8%;
 }
   
 /* 모아보기 눌렀을 때 색과 커서 포인터 */
@@ -87,8 +88,7 @@ summary{
 @media screen and (max-width: 768px) {
   
     .plastic{
-      text-align: left;
-      margin-left: 20%;
+        margin-right: 15%;
     }
    
 }

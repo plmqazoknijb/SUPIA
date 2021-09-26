@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .paper{
-  margin-left: 13%;
+  margin-left: 15%;
 }
 
 /* 비닐 배출방법 왼쪽 정렬 */
@@ -82,14 +82,13 @@ summary{
 @media screen and (max-width: 768px) {
   
     .paper{
-      text-align: left;
-      margin-left: 20%;
+      margin-right: 15%;
     }
 
     .paper-ul{
       display: inline-block;
       text-align: left;
-      margin-right: 14%;
+      margin-right: 5%;
     }
    
   }

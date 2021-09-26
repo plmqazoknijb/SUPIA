@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .cans{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 /* 캔 배출방법 왼쪽 정렬 */
@@ -51,11 +51,6 @@
   margin-right: 15%;
 }
 
-/* 모아보기 전체 중간 정렬 */
-.cans-ul-1{
-  text-align: center;
-}
-
 /* 모아보기 눌렀을 때 색과 커서 포인터 */
 .cans-li-1:hover{
   color: cadetblue;
@@ -78,13 +73,10 @@
 @media screen and (max-width: 768px) {
 
   .cans{
-    text-align: left;
-    margin-left: 20%;
+    margin-right: 13%;
   }
 
-  .cans-ul{
-    display: inline-block;
-    text-align: left;
-    margin-right: 3%;
+  .metal{
+    margin-right: 13%;
   }
 }

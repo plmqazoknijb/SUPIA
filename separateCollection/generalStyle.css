@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .general1{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 /* 일반쓰레기 배출방법 왼쪽 정렬 */
@@ -111,8 +111,7 @@ p{
 @media screen and (max-width: 768px) {
 
     .general1{
-        text-align: left;
-        margin-left: 20%;
+        margin-right: 15%;
     }
    
 }
