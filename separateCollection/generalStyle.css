@@ -27,6 +27,11 @@ summary{
     cursor: pointer;
 }
 
+/* 일반쓰레기 details 한칸 띄우기 */
+.generaldetails{
+    margin-left: 2.5%;
+}
+
 /* details 안 글 오른쪽으로 살짝 이동 */
 p{
     margin-left: 2%;
