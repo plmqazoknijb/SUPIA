@@ -46,7 +46,7 @@
     margin-left: 1%;
     margin-right: 2%;
     margin-top: 3%;
-    height: 200px;
+    height: 250px;
     width: 0.03px;
     background-color: grey;
     float: left;
@@ -55,15 +55,67 @@
 /* 분리수거 메인 화면 */
 .maincontentsul{
   text-align: left;
-  margin-left: 12.5%;
+  margin-left: 15%;
+}
+
+/* 전체 오른쪽으로 띄우기 */
+.base{
+  margin-left: 15%;
+}
+
+/* 플라스틱 배출방법 왼쪽 정렬 */
+.base-ul-0{
+  text-align: left;
+}
+
+/* tip제목 글자 색 변경 */
+#tip{
+  color: crimson;
+}
+
+/* tip안 p 글자 색 변경 */
+#summarytip{
+  color: rgb(82, 81, 81);
+}
+
+/* details 안 글 오른쪽으로 살짝 이동 */
+p{
+  margin-left: 2%;
+}
+
+/* details 눌렀을 때 커서 변경 */
+summary{
+  cursor: pointer;
+}
+
+/* 수평선 */
+#basehr{
+  width: 75%;
+}
+
+.separate{
+  width: 100px;
+  height: 100px;
+}
+
+.logoimg{
+  text-align: center;
+  cursor: pointer;
 }
 
 /* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
 
-  .maincontentsul{
-    text-align: left;
-    margin-left: 22%;
+  .menu{
+    width: 100vw;
+    margin-left: 0%;
+  }
+
+  .divider{
+    float: none;
+    width: 70%;
+    height: 0.3px;
+    margin: auto;
   }
  
 }

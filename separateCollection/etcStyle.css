@@ -9,7 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .etc{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 /* 기타 품목들 제목 센터 */
@@ -71,7 +71,7 @@ summary{
   
 /* 모아보기 전체 중간 정렬 */
 .etc-ul-1{
-    text-align: center;
+    margin-right:9%;
 }
   
 /* 모아보기 눌렀을 때 색과 커서 포인터 */
@@ -96,8 +96,7 @@ summary{
 @media screen and (max-width: 768px) {
 
     .etc{
-      text-align: left;
-      margin-left: 20%;
+      margin-right: 13%;
     }
    
 }
