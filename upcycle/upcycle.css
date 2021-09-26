@@ -45,7 +45,7 @@ body{
 }
 .Ex p{
   font-size: 17px;
-  margin: 0;
+  margin: 0.5%;
   margin-left: 30px;
 }
 .red{
@@ -56,18 +56,19 @@ body{
 }
 
 .link{
-  color: rgb(148, 50, 148);
-  text-decoration: underline;
+  color: rgb(60, 185, 108);
+  
 }
 
 .Ex{
   text-align: center;
-  margin: 0;
+  margin-right: 10%;
+  
 }
 
 .Ex h3{
   font-size: 30px;
-  margin-left: 650px;
+  margin-left: 45%;
   width: 150px;
 }
 
