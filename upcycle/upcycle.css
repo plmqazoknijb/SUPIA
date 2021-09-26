@@ -64,3 +64,12 @@ body{
 .point{
   color: rgb(214, 73, 73);
 }
+hr{
+  margin-top: 3%;
+  width: 75%;
+}
+.stitle{
+  text-align: center;
+  margin-top: 2%;
+  font-size: 20px;
+}
