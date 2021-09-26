@@ -163,5 +163,16 @@ h5{
     flex-direction: column;
     margin-left: 7%;
   }
+
+  .col-12{
+    margin-right: 8%;
+  }
+
+  .col-6{
+    margin-right: 8%;
+  }
+  .col-5{
+    margin-top: -6%;
+  }
   
 }
