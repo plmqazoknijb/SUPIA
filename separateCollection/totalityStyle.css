@@ -9,6 +9,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .totality{
+  width: 83%;
   margin-left: 15%;
 }
 
@@ -25,7 +26,6 @@
 #totalh1{
   text-align: left;
   margin: 0%;
-  /* margin-bottom: 1%; */
 }
 
 #total-span{
@@ -53,8 +53,12 @@
 /* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
 
-  .total{
-      margin-right: 15%;
+  .totality{
+    margin-right: 15%;
+  }
+
+  .total-consonant{
+    margin-right: 15%;
   }
  
 }
