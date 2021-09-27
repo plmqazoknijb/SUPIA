@@ -108,7 +108,8 @@ summary{
 
   .menu{
     width: 100vw;
-    margin-left: 0%;
+    margin-left: -2%;
+    margin-bottom: 3%;
   }
 
   .divider{
@@ -116,6 +117,14 @@ summary{
     width: 70%;
     height: 0.3px;
     margin: auto;
+  }
+
+  .base{
+    margin-right: 15%;
+  }
+
+  .basekinds{
+    margin-right: 3%;
   }
  
 }

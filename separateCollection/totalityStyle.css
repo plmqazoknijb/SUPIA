@@ -1,56 +1,64 @@
-/* body{
-    margin-left: 13%;
+/* 제목 효과 */
+.highlight {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+/* 전체 오른쪽으로 띄우기 */
+/* .totality{
+  margin-left: 15%;
+} */
+
+.total-consonant{
+  text-align: center;
+}
+
+.dic-consonant{
+  font-size: large;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/* .total-a{
+  text-align: center;
+} */
+
+#totalh1{
+  text-align: left;
+  margin: 0%;
+  /* margin-bottom: 1%; */
+}
+
+#total-span{
+  text-align: center;
+}
+
+/* 수평선 */
+#totalhr{
+  width: 63%;
+}
+
+.total-vowel{
+  font-size: medium;
+  text-align: left;
+}
+
+/* 모아보기 전체 오른쪽 여백 및 글자 왼쪽 정렬 */
+.total-ul{
+  text-align: left;
+  display: inline-block;
+  margin-right: 3%;
+}
+
+
+/* 줄어들었을 때 세로정렬 하는 방법 */
+@media screen and (max-width: 768px) {
+
+  .total{
+      margin-right: 15%;
   }
-  .searchbox{
-    width: 90%;
-    margin: 10px auto;
-  }
-  .header{
-    background: #ECDFBF;
-    overflow: hidden;
-    padding: 20px;
-    text-align: center;
-  }
-  .header h1{
-    text-transform: uppercase;
-    color: white;
-    margin: 0;
-    margin-bottom: 8px;
-  }
-  #value{
-    border: none;
-    background: #E0D3B6;
-    padding: 6px;
-    font-size: 18px;
-    width: 80%;
-    border-radius: 6px;
-    color: white;
-  }
-  #value:focus{
-    outline: none;
-  }
-  .container{
-    background: #FFFFF5;
-    padding: 1%;
-  }
-  .item{
-    margin: 3% 0px;
-    display: flex;
-    align-items: center;
-  }
-  .icon{
-    width: 25px;
-    height: 25px;
-    background: #E0D3B6;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    line-height: 25px;
-    border-radius: 50%;
-    margin-right: 8px;
-  }
-  .name{
-    font-size: 17px;
-    font-weight: 470;
-    color: #333;
-  } */
+ 
+}

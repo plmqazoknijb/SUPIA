@@ -69,15 +69,20 @@ a {
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     padding: 8px 24px;
   }
+
+  /* .header_logo{
+    text-align: center;
+  } */
   
   .header_menu {
     display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-left: 12%;
   }
 
   .navbar__icons {

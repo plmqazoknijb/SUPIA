@@ -1,78 +1,915 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./totalityStyle.css" />
-    <title>Document</title>
+    <title>plastic</title>
 </head>
 <body>
-    <div class="searchbox">
-       <div class="header">
-         <h1>Search</h1>
-         <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
-       </div>
- 
-       <div class="container">
- 
-         <div class="item">
-           <span class="icon">A</span>
-           <span class="name">Apple</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">O</span>
-           <span class="name">Orange</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">M</span>
-           <span class="name">Mandarin</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">S</span>
-           <span class="name">Strawberry</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">W</span>
-           <span class="name">Watermelon</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">G</span>
-           <span class="name">Grape</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">P</span>
-           <span class="name">Pear</span>
-         </div>
- 
-         <div class="item">
-           <span class="icon">C</span>
-           <span class="name">Cherry</span>
-         </div>
-       </div>
-     </div>
- </body>
- <script type="text/javascript">
-  function filter(){
+    <div class="totality">
+        <h2><span class="highlight">전체 모아보기</span></h2>
 
-    var value, name, item, i;
+        <div class="total-consonant">
+            <span class="dic-consonant"><a href="#ㄱ">ㄱ</a></span>
+            <span class="dic-consonant"><a href="#ㄲ">ㄲ</a></span>
+            <span class="dic-consonant"><a href="#ㄴ">ㄴ</a></span>
+            <span class="dic-consonant"><a href="#ㄷ">ㄷ</a></span>
+            <span class="dic-consonant"><a href="#ㄸ">ㄸ</a></span>
+            <span class="dic-consonant"><a href="#ㄹ">ㄹ</a></span>
+            <span class="dic-consonant"><a href="#ㅁ">ㅁ</a></span>
+            <span class="dic-consonant"><a href="#ㅂ">ㅂ</a></span>
+            <span class="dic-consonant"><a href="#ㅅ">ㅅ</a></span>
+            <span class="dic-consonant"><a href="#ㅆ">ㅆ</a></span>
+            <span class="dic-consonant"><a href="#ㅇ">ㅇ</a></span>
+            <span class="dic-consonant"><a href="#ㅈ">ㅈ</a></span>
+            <span class="dic-consonant"><a href="#ㅉ">ㅉ</a></span>
+            <span class="dic-consonant"><a href="#ㅊ">ㅊ</a></span>
+            <span class="dic-consonant"><a href="#ㅋ">ㅋ</a></span>
+            <span class="dic-consonant"><a href="#ㅌ">ㅌ</a></span>
+            <span class="dic-consonant"><a href="#ㅍ">ㅍ</a></span>
+            <span class="dic-consonant"><a href="#ㅎ">ㅎ</a></span>            
+        </div>
 
-    value = document.getElementById("value").value.toUpperCase();
-    item = document.getElementsByClassName("item");
+        <hr id="totalhr">
 
-    for(i=0;i<item.length;i++){
-      name = item[i].getElementsByClassName("name");
-      if(name[0].innerHTML.toUpperCase().indexOf(value) > -1){
-        item[i].style.display = "flex";
-      }else{
-        item[i].style.display = "none";
-      }
-    }
-  }
-</script>
-</html> -->
+        <div id="total-span">
+            <span>궁금한 제품에 마우스를 가져다 대보세요.</span>
+        </div>
+
+        <div class="total-a" id="ㄱ">
+          <h1 id="totalh1">ㄱ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-b" id="ㄲ">
+            <h1 id="totalh1">ㄲ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-c" id="ㄴ">
+            <h1 id="totalh1">ㄴ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-d" id="ㄷ">
+            <h1 id="totalh1">ㄷ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-e" id="ㄸ">
+            <h1 id="totalh1">ㄸ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-f" id="ㄹ">
+            <h1 id="totalh1">ㄹ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-g" id="ㅁ">
+            <h1 id="totalh1">ㅁ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-h" id="ㅂ">
+            <h1 id="totalh1">ㅂ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-i" id="ㅅ">
+            <h1 id="totalh1">ㅅ</h1>
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-j" id="ㅆ">
+            <h1 id="totalh1">ㅆ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-k" id="ㅇ">
+            <h1 id="totalh1">ㅇ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-l" id="ㅈ">
+            <h1 id="totalh1">ㅈ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-m" id="ㅉ">
+            <h1 id="totalh1">ㅉ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-n" id="ㅊ">
+            <h1 id="totalh1">ㅊ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-o" id="ㅋ">
+            <h1 id="totalh1">ㅋ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-p" id="ㅌ">
+            <h1 id="totalh1">ㅌ</h1>
+            
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-q" id="ㅍ">
+            <h1 id="totalh1">ㅍ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="total-r" id="ㅎ">
+            <h1 id="totalh1">ㅎ</h1>
+    
+            <div class="total total-ul-1">
+                <ul class="total-ul">
+                    <li class="total-li-1" title="플라스틱류">국자(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">그릇(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류">도마(플라스틱 도마)</li>
+                    <li class="total-li-1" title="플라스틱류">리코더(플라스틱)</li>
+                    <li class="total-li-1" title="플라스틱류, 재질별 분리">마요네즈용기</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-2" title="플라스틱류">볼풀공</li>
+                    <li class="total-li-2" title="플라스틱류">분무기(플라스틱)</li>
+                    <li class="total-li-2" title="플라스틱류">비디오테이프</li>
+                    <li class="total-li-2" title="플라스틱류(HDPE)">샴푸용기</li>
+                    <li class="total-li-2" title="플라스틱류">스티로폼</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-3" title="플라스틱류">쓰레받기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류">식용유용기(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류(PS)">스티로폼</li>
+                    <li class="total-li-3" title="플라스틱류(HDPE)">장난감(플라스틱)</li>
+                    <li class="total-li-3" title="플라스틱류, 재질별 분리">젖병(아기용품)</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+                <ul class="total-ul">
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">치약용기</li>
+                    <li class="total-li-4" title="플라스틱류(PP)">캡(플라스틱 뚜껑)</li>
+                    <li class="total-li-4" title="플라스틱류">컵(플라스틱)</li>
+                    <li class="total-li-4" title="플라스틱류, 재질별 분리">케챱용기</li>
+                    <li class="total-li-4" title="플라스틱류">페트병</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
