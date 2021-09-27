@@ -128,11 +128,10 @@ a {
   
 /* footer.html */
 #footer{
-  /* position: absolute; */
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
-  /* width: 100%; */
+  width: 100%;
 }
 
 

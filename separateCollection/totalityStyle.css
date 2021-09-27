@@ -8,8 +8,8 @@
 }
 
 /* 전체 오른쪽으로 띄우기 */
-.totallytotal{
-  margin-right: 3%;
+.totality{
+  margin-left: 15%;
 }
 
 .total-consonant{
@@ -21,10 +21,6 @@
   margin-left: 1%;
   margin-right: 1%;
 }
-
-/* .total-a{
-  text-align: center;
-} */
 
 #totalh1{
   text-align: left;
