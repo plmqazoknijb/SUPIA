@@ -42,6 +42,16 @@
   text-align: left;
 }
 
+.total-li-1:hover,
+.total-li-2:hover,
+.total-li-3:hover,
+.total-li-4:hover,
+.total-li-5:hover,
+.total-li-6:hover{
+  cursor: pointer;
+  color: cadetblue;
+}
+
 /* 모아보기 전체 오른쪽 여백 및 글자 왼쪽 정렬 */
 .total-ul{
   text-align: left;
