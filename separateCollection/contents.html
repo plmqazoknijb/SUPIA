@@ -9,17 +9,17 @@
     <div class="menu">
 
         <h4>종류</h4>
-        <!-- <a onclick = "fetch('totality.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">전체</a>
-            <br> -->
         <a onclick = "fetch('separatebase.html').then(function(response){
             response.text().then(function(text){
             document.querySelector('#d').innerHTML=text;
             })
             });" class="underline">분리배출의 기본</a>
+            <br>
+        <a onclick = "fetch('totality.html').then(function(response){
+            response.text().then(function(text){
+            document.querySelector('#d').innerHTML=text;
+            })
+            });" class="underline">전체</a>
             <br>
         <a onclick = "fetch('generalwaste.html').then(function(response){
             response.text().then(function(text){
@@ -110,7 +110,6 @@
     
         <div class="basekinds">
             
-    
             <div class="base base-ul-1">
                 <h2><span class="highlight">분리배출의 표시</span></h2>
                 <h6>궁금한 표시에 마우스를 가져다 대보세요.</h6>

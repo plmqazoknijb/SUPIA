@@ -8,14 +8,22 @@ body{
   overflow:  hidden;
   text-align: center;
   padding-top: 0%;
+<<<<<<< HEAD
   margin-bottom: 0%;
+=======
+  margin-bottom: 3%;
+>>>>>>> 7ff1e90f8a902b95445aafe17ada187639f0effe
 }
 #wrap a{
   text-decoration: none; color: rgb(59, 146, 56);
   
 }
 .b{
+<<<<<<< HEAD
   margin-bottom: 5%;
+=======
+  margin-bottom: 10px;
+>>>>>>> 7ff1e90f8a902b95445aafe17ada187639f0effe
 }
 /* #wrap a:visited{color: rgb(23, 223, 70); text-decoration: underline;} */
 #wrap a:hover{color:rgb(100, 206, 70); text-decoration: none;}
@@ -25,7 +33,7 @@ body{
 }
 .b div{
   padding: 20px;
-  
+  width: 480px;
 }
 #wrap img{
     width:200px; height:200px;
