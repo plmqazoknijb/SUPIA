@@ -8,15 +8,10 @@ body{
   overflow:  hidden;
   text-align: center;
   padding-top: 0%;
-<<<<<<< HEAD
-  margin-bottom: 0%;
-=======
   margin-bottom: 3%;
->>>>>>> 7ff1e90f8a902b95445aafe17ada187639f0effe
 }
 #wrap a{
-  text-decoration: none; color: rgb(59, 146, 56);
-  
+  text-decoration: none; color: rgb(59, 146, 56); 
 }
 .b{
   margin-bottom: 10px;
