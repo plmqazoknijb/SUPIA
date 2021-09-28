@@ -19,11 +19,7 @@ body{
   
 }
 .b{
-<<<<<<< HEAD
-  margin-bottom: 5%;
-=======
   margin-bottom: 10px;
->>>>>>> 7ff1e90f8a902b95445aafe17ada187639f0effe
 }
 /* #wrap a:visited{color: rgb(23, 223, 70); text-decoration: underline;} */
 #wrap a:hover{color:rgb(100, 206, 70); text-decoration: none;}
