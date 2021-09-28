@@ -16,7 +16,7 @@
 
 /* Edit menu*/
 body {
-
+    width: 100%;
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: 100%;
@@ -40,5 +40,7 @@ body {
 .slider > div img {width: 100%;}
 .slideList {position: relative; width: 3600px; height: 360px;}
 .slideList .slideImg {float: left; width: 1200px; height: 360px;}
+
+
 
 

@@ -8,9 +8,10 @@
 }
 
 /* 전체 오른쪽으로 띄우기 */
-/* .totality{
+.totality{
+  width: 83%;
   margin-left: 15%;
-} */
+}
 
 .total-consonant{
   text-align: center;
@@ -22,14 +23,9 @@
   margin-right: 1%;
 }
 
-/* .total-a{
-  text-align: center;
-} */
-
 #totalh1{
   text-align: left;
   margin: 0%;
-  /* margin-bottom: 1%; */
 }
 
 #total-span{
@@ -46,19 +42,32 @@
   text-align: left;
 }
 
+.total-li-1:hover,
+.total-li-2:hover,
+.total-li-3:hover,
+.total-li-4:hover,
+.total-li-5:hover,
+.total-li-6:hover{
+  cursor: pointer;
+  color: cadetblue;
+}
+
 /* 모아보기 전체 오른쪽 여백 및 글자 왼쪽 정렬 */
 .total-ul{
   text-align: left;
   display: inline-block;
-  margin-right: 3%;
 }
 
 
 /* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
 
-  .total{
-      margin-right: 15%;
+  .totality{
+    margin-right: 15%;
+  }
+
+  .total-consonant{
+    margin-right: 15%;
   }
  
 }
