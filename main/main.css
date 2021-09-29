@@ -17,16 +17,13 @@
 
 /* Edit menu*/
 body {
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     /* background-position: center; */
-    background-size: 100%;
-    
 }
-
 /* banner */
-#banner {position: relative; width: 1200px; margin: 0 auto; text-align: center; overflow: hidden; height: 360px; }
-#banner img {width: 100%; display: block;}
+#banner {position: relative; width: 100vw; margin: 0 auto; text-align: center; overflow: hidden; height: 40vw;}
+#banner img {width: 100vw; display: block;}
 #banner h2 {
     position: absolute; left: 50%; top: 50%;
     transform: translate(-50%, -50%);
@@ -35,13 +32,15 @@ body {
     border-radius: 25px;
     padding: 10px 30px;
 }
-
+.mid{
+    margin-top: 15px;
+}
 /* slider */
 .slider {position: relative;}
 .slider > div {position: absolute; left: 0; top: 0;}
 .slider > div img {width: 100%;}
-.slideList {position: relative; width: 3600px; height: 360px;}
-.slideList .slideImg {float: left; width: 1200px; height: 360px;}
+.slideList {position: relative; width: 300vw;}
+.slideList .slideImg {float: left; width: 100vw;}
 
 
 
