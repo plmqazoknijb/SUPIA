@@ -14,16 +14,18 @@
     grid-column: 1/5;
 }
 
+
 /* Edit menu*/
 body {
     width: 100%;
     background-repeat: no-repeat;
     /* background-position: center; */
-    /* background-size: 100%; */
+    background-size: 100%;
     
 }
+
 /* banner */
-#banner {position: relative; width: 1535px; margin: 0 auto; text-align: center; overflow: hidden; height: 435px; }
+#banner {position: relative; width: 1200px; margin: 0 auto; text-align: center; overflow: hidden; height: 360px; }
 #banner img {width: 100%; display: block;}
 #banner h2 {
     position: absolute; left: 50%; top: 50%;
