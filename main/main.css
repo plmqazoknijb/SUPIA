@@ -42,6 +42,12 @@ body {
 .slideList {position: relative; width: 300vw;}
 .slideList .slideImg {float: left; width: 100vw;}
 
-
-
-
+.menuP{
+    font-weight: bold;
+    font-size: 30px;
+}
+.menuDiv{
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
