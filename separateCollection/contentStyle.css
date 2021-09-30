@@ -108,20 +108,10 @@ summary{
   .menu{
     position: relative;
     width: 100vw;
-    /* margin-left: -2%;
-    margin-bottom: 3%; */
-  }
-
-  .divider{
-    position: relative;
-    float: none;
-    width: 70%;
-    height: 0.3px;
-    margin: auto;
   }
 
   .temp{
-
+    padding-bottom: 20px;
     border-right: none;
     border-bottom: solid 1px gray;
   }

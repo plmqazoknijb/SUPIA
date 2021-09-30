@@ -9,7 +9,8 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .bottle{
-    margin-left: 15%;
+    margin-left: 20%;
+    float: left;
 }
 
 /* 비닐 배출방법 왼쪽 정렬 */
