@@ -16,9 +16,6 @@
   min-width: 150px;
 }
 
-
-
-
 .temp{
   padding-left: 20px;
   padding-right: 20px;
@@ -107,13 +104,10 @@ summary{
   .menu{
     position: relative;
     width: 100vw;
-    margin-left: -2%;
   }
 
   .temp{
     padding-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
     border-bottom: solid 1px gray;
   }
 
@@ -122,11 +116,12 @@ summary{
   }
 
   .basekinds{
+    margin-left: 3%;
     margin-right: 3%;
   }
  
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width:768px) {
 
   #d{
     margin-left:7%;
