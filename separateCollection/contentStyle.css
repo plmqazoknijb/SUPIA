@@ -11,11 +11,13 @@
   width: 12vw;
   position: absolute;
   text-align: center;
-  /* margin-left: 1%;
-  margin-right: 1%; */
   /* br크기 조절 */
   line-height:170%;
+  min-width: 150px;
 }
+
+
+
 
 .temp{
   padding-left: 20px;
@@ -115,20 +117,19 @@ summary{
     border-bottom: solid 1px gray;
   }
 
-  /* .divider{
-    position: relative;
-    float: none;
-    width: 70%;
-    height: 0.3px;
-    margin: auto;
-  } */
-
   .base{
     margin-right: 15%;
   }
 
   .basekinds{
     margin-right: 3%;
+  }
+ 
+}
+@media screen and (max-width: 1000px) {
+
+  #d{
+    margin-left:7%;
   }
  
 }
