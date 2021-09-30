@@ -9,64 +9,62 @@
     <div class="menu">
 
         <h4>종류</h4>
-        <a onclick = "fetch('separatebase.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">분리배출의 기본</a>
-            <br>
-        <a onclick = "fetch('totality.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">전체</a>
-            <br>
-        <a onclick = "fetch('generalwaste.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">일반쓰레기</a>
-            <br>
-        <a onclick = "fetch('paper.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">종이류</a>
-            <br>
-        <a onclick = "fetch('cans.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">캔 • 고철 류</a>
-            <br>
-        <a onclick = "fetch('bottle.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">유리병류</a>
-            <br>
-        <a onclick = "fetch('plastic.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">플라스틱 류</a>
-            <br>
-        <a onclick = "fetch('vinyl.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">비닐 류</a>
-            <br>
-        <a onclick = "fetch('etc.html').then(function(response){
-            response.text().then(function(text){
-            document.querySelector('#d').innerHTML=text;
-            })
-            });" class="underline">기타</a>
+        <div class="temp">
+            <a onclick = "fetch('separatebase.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">분리배출의 기본</a>
+                <br>
+            <a onclick = "fetch('totality.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">전체</a>
+                <br>
+            <a onclick = "fetch('generalwaste.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">일반쓰레기</a>
+                <br>
+            <a onclick = "fetch('paper.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">종이류</a>
+                <br>
+            <a onclick = "fetch('cans.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">캔 • 고철 류</a>
+                <br>
+            <a onclick = "fetch('bottle.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">유리병류</a>
+                <br>
+            <a onclick = "fetch('plastic.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">플라스틱 류</a>
+                <br>
+            <a onclick = "fetch('vinyl.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">비닐 류</a>
+                <br>
+            <a onclick = "fetch('etc.html').then(function(response){
+                response.text().then(function(text){
+                document.querySelector('#d').innerHTML=text;
+                })
+                });" class="underline">기타</a>
+        </div>
 
-    </div>
-
-    <div id="hr">
-        <hr class="divider">
     </div>
 
     <div id="d">

@@ -10,10 +10,20 @@
 .menu{
   position: absolute;
   text-align: center;
-  margin-left: 2%;
-  margin-right: 1%;
+  float: left;
   /* br크기 조절 */
-  line-height:170%
+  line-height:170%;
+}
+
+.temp{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: solid 1px gray;
+}
+
+#d{
+  margin-left: 6%;
+  float: left;
 }
 
 /* 메뉴 글자 갖다댈 때 밑줄 */
@@ -41,20 +51,10 @@
   left: 0; 
 }
 
-/* 수직선 */
-.divider{
-    position: absolute;
-    margin-left: 12%;
-    margin-top: 3%;
-    height: 260px;
-    width: 0.03px;
-    background-color: grey;
-}
-
 /* 분리수거 메인 화면 */
 .maincontentsul{
   text-align: left;
-  margin-left: 15%;
+  
 }
 
 /* 전체 오른쪽으로 띄우기 */
@@ -108,8 +108,8 @@ summary{
   .menu{
     position: relative;
     width: 100vw;
-    margin-left: -2%;
-    margin-bottom: 3%;
+    /* margin-left: -2%;
+    margin-bottom: 3%; */
   }
 
   .divider{
@@ -118,6 +118,12 @@ summary{
     width: 70%;
     height: 0.3px;
     margin: auto;
+  }
+
+  .temp{
+
+    border-right: none;
+    border-bottom: solid 1px gray;
   }
 
   .base{
