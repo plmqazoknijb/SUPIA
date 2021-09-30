@@ -10,7 +10,7 @@
 .menu{
   position: absolute;
   text-align: center;
-  margin-left: 2%;
+  margin-left: 20px;
   /* margin-right: 1%; */
   /* br크기 조절 */
   line-height:170%;
@@ -46,21 +46,11 @@
   left: 0; 
 }
 
-/* 수직선 */
-/* .divider{
-    position: absolute;
-    margin-left: 5%;
-    margin-top: 3%;
-    height: 260px;
-    width: 0.03px;
-    background-color: grey;
-} */
-
 /* 분리수거 메인 화면 */
-.maincontentsul{
+/* .maincontentsul{
   text-align: left;
-  margin-left: 15%;
-}
+  margin-left: 10px;
+} */
 
 /* 전체 오른쪽으로 띄우기 */
 .base{
