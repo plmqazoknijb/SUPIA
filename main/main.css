@@ -43,7 +43,7 @@ body {
 .slideList .slideImg {float: left; width: 100vw;}
 
 .menuP{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
 }
 .menuDiv{
