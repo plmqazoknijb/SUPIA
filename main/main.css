@@ -33,7 +33,7 @@ body {
     padding: 10px 30px;
 }
 .mid{
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 /* slider */
 .slider {position: relative;}
@@ -48,6 +48,17 @@ body {
 }
 .menuDiv{
     text-align: center; 
-    margin-top: 50px; 
-    margin-bottom: 50px;
+    margin-top: 150px; 
+    margin-bottom: 150px;
 }
+
+video{
+    width: 50vw;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.menuDiv h1{
+    font-size: 40px;
+}
+
