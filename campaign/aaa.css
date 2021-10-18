@@ -1,23 +1,14 @@
 
 /* grid */
-.wrapper{
-    display: grid;
-    grid-template-columns: 200px;
-  }
-  .one {
-    grid-column: 1 / 4;
-  }
+@media screen and (max-width: 968px){
   .two {
-    background-color: #BFAC95;
-    grid-column: 2 / 4;
+    grid-column: 1 / 4 ;
+    grid-row: 3 / 4;
   }
-  .three {
-    grid-column: 1 / 4;
+  #wrap{
+    margin-left: 10%;
+    margin-right: 10%;
   }
-  @media only screen and (max-width: 720px){
-    .two {
-      grid-column: 1 / 4 ;
-      grid-row: 3 / 4;
-    }
-    
-  }
+  
+}
+  
