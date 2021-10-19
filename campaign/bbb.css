@@ -1,0 +1,13 @@
+
+/* grid */
+@media screen and (max-width: 968px){
+    .two {
+      grid-column: 1 / 4 ;
+      grid-row: 3 / 4;
+    }
+    #id{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  }
+    
