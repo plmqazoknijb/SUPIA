@@ -47,8 +47,12 @@ summary{
     height: 100px;
 }
 
+/* #logoimges{
+    margin-left: 17%;
+} */
+
 .logoimg{
-    text-align: center;
+    /* text-align: center; */
     cursor: pointer;
 }
 
