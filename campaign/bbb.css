@@ -5,9 +5,11 @@
       grid-column: 1 / 4 ;
       grid-row: 3 / 4;
     }
-    #id{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+    #wrap{
+      overflow:  hidden;
+      padding-top: 3%;
+      padding-bottom: 3%;
+  }
+
   }
     
