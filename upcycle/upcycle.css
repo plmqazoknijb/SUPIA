@@ -2,6 +2,11 @@
 body{
   font-family: Gowun Batang;
 }
+
+#upa{
+  margin-top:2%
+}
+
 #wrap{
   font-size: 20px;
   overflow:  hidden;
@@ -16,7 +21,7 @@ body{
   margin-bottom: 10px;
 }
 /* #wrap a:visited{color: rgb(23, 223, 70); text-decoration: underline;} */
-#wrap a:hover{color:rgb(100, 206, 70); text-decoration: none;}
+#wrap a:hover{color:rgb(59, 146, 56); text-decoration: none;}
 #wrap div{
   display: inline-block;
   text-align: center;
@@ -41,10 +46,6 @@ body{
     
   }
 
-  
-.Ex h1{
-  font-size: 50px;
-}
 .Ex p{
   font-size: 17px;
 
@@ -55,8 +56,12 @@ body{
 }
 
 .link{
-  color: rgb(60, 185, 108);
-  
+  text-decoration-line: none;
+  color:rgb(59, 146, 56);
+}
+.link:hover{
+  border-bottom:2px solid rgb(59, 146, 56); 
+  padding-bottom:1px;
 }
 
 .Ex{
@@ -73,7 +78,6 @@ body{
 .stitle{
   text-align: center;
   margin-top: 2%;
-  font-size: 20px;
   margin-bottom: 0%;
 }
 
@@ -85,6 +89,11 @@ body{
   .title{
     margin-left: 10%;
     margin-right: 10%;
+  }
+  .b div{
+    margin-left: 0.5%;
+    margin-right: 4%;
+    width: 85%;
   }
   
 }
