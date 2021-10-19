@@ -90,5 +90,10 @@ body{
     margin-left: 10%;
     margin-right: 10%;
   }
+  .b div{
+    margin-left: 0.5%;
+    margin-right: 4%;
+    width: 85%;
+  }
   
 }
