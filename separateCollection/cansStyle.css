@@ -20,6 +20,10 @@
 
 /* 고철 */
 
+.canskinds{
+  text-align: center;
+}
+
 /* 전체 오른쪽으로 띄우기 */
 .metal{
     margin-left: 13%;

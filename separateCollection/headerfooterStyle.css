@@ -62,7 +62,7 @@ a {
 .header_search {
   display: none;
   position: absolute;
-  right: 32px;
+  right: 20px;
   font-size: 24px;
   color: var(--accent-color);
 }
@@ -181,7 +181,7 @@ h5{
 .up{
   position: fixed;
   bottom: 5px;
-  right: 30px;
+  right: 20px;
 }
 
 /* 줄어들었을 때 세로정렬 하는 방법 */
