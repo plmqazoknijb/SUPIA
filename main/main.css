@@ -60,3 +60,21 @@ video{
 .menuDiv h1{
     font-size: 40px;
 }
+@media screen and (max-width: 968px){
+    .menuP{
+        font-size: 18px;
+    }
+    .munuPt{
+        font-size: 10px;
+    }
+    .menuDiv h1{
+        font-size: 25px;
+    }
+    .menuDiv video{
+        width: 70%;
+        height: 55%;
+    }
+    .menuDiv{
+        margin-top: 20%
+    }
+}
