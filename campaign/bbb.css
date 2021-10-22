@@ -1,0 +1,15 @@
+
+/* grid */
+@media screen and (max-width: 968px){
+    .two {
+      grid-column: 1 / 4 ;
+      grid-row: 3 / 4;
+    }
+    #wrap{
+      overflow:  hidden;
+      padding-top: 3%;
+      padding-bottom: 3%;
+  }
+
+  }
+    
