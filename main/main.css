@@ -16,6 +16,16 @@
 
 
 /* Edit menu*/
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
 body {
     width: 100vw;
     background-repeat: no-repeat;
@@ -60,6 +70,56 @@ video{
 .menuDiv h1{
     font-size: 40px;
 }
+.dot:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .dot {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+  }
+  
+  .dot>li {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: -9999px;
+    cursor: pointer;
+  }
+  
+  .dot>li.on {
+    background-color: #342f2f;
+  }
+  
+  .prev {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    cursor: pointer;
+  }
+  
+  .next {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    cursor: pointer;
+  }
 @media screen and (max-width: 968px){
     .menuP{
         font-size: 16px;
