@@ -164,3 +164,37 @@ summary{
   }
  
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .menu{
+    position: relative;
+    width: 100vw;
+  }
+
+  #d{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .base{
+    margin-right: 15%;
+}
+
+.basekinds{
+    text-align: center;
+    float: left;
+}
+
+.can,
+.can1{
+    padding-bottom: 32px;
+}
+
+.plasticlogos,
+.plastices,
+.pet{
+    padding-bottom: 52px;
+}
+  
+  }
