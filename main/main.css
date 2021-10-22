@@ -62,10 +62,10 @@ video{
 }
 @media screen and (max-width: 968px){
     .menuP{
-        font-size: 18px;
+        font-size: 16px;
     }
-    .munuPt{
-        font-size: 10px;
+    .menuPt{
+        font-size: 13px;
     }
     .menuDiv h1{
         font-size: 25px;
