@@ -221,25 +221,25 @@ function slide() {
     slideMove();
   }
 
-//   // 슬라이드 무브
-//   function slideMove() {
-//     $panel.stop().animate({
-//       'margin-left': -wid * now_num
-//     });
-//     $dotli.removeClass('on');
-//     $dotli.eq(now_num).addClass('on');
-//   }
+  // 슬라이드 무브
+  function slideMove() {
+    $panel.stop().animate({
+      'margin-left': -wid * now_num
+    });
+    $dotli.removeClass('on');
+    $dotli.eq(now_num).addClass('on');
+  }
 
-//   // 화면크기 조정시 화면 재설정
-//   function resize() {
-//     $(window).resize(function() {
-//       init();
-//       $panel.css({
-//         'margin-left': -wid * now_num
-//       });
-//     });
-//   }
-//   init();
-//   slideEvent();
+  // 화면크기 조정시 화면 재설정
+  function resize() {
+    $(window).resize(function() {
+      init();
+      $panel.css({
+        'margin-left': -wid * now_num
+      });
+    });
+  }
+  init();
+  slideEvent();
 }
 </script>

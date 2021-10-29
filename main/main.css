@@ -68,8 +68,14 @@ video{
 }
 
 .menuDiv h1{
+    margin-bottom: 2%;
     font-size: 40px;
 }
+
+.menuPt{
+    margin-top: 0.8%;
+}
+
 .dot:after {
     content: "";
     display: block;
@@ -85,8 +91,8 @@ video{
   
   .dot>li {
     float: left;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #fff;
     margin-left: 10px;
@@ -99,38 +105,22 @@ video{
     background-color: #342f2f;
   }
   
-  .prev {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10%;
-    cursor: pointer;
-  }
   
-  .next {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10%;
-    cursor: pointer;
-  }
+
 @media screen and (max-width: 968px){
     .menuP{
         font-size: 16px;
     }
     .menuPt{
+        margin-top: 1.5%;
         font-size: 13px;
     }
     .menuDiv h1{
         font-size: 25px;
     }
     .menuDiv video{
+        margin-top: 10%;
+        margin-bottom: 10%;
         width: 70%;
         height: 55%;
     }
