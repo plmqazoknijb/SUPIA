@@ -178,11 +178,12 @@ h5{
 }
 
 /* up */
-.up{
+/* .up{
   position: fixed;
-  bottom: 5px;
-  right: 20px;
-}
+  bottom: 60px;
+  right: 25px;
+} */
+
 
 /* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
