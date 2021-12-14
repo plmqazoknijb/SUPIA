@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,19 +17,18 @@
             <div class="slideImg"><img src="./main_image/img3.png" alt="main 이미지"></div>
         </div>
     </section>
-    <!-- <div class="slide">
+    <div class="slide">
         <ul class="dot">
           <li class="on">슬라이드 버튼1번</li>
           <li>슬라이드 버튼2번</li>
           <li>슬라이드 버튼3번</li>
         </ul>
-      </div> -->
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
         var slideCount = $(".slideImg").length;
         var currentIndex = 0;
         var slidePosition;
-
         setInterval(function(){
             if(currentIndex < slideCount - 1){
                 currentIndex++;
@@ -38,7 +38,6 @@
             slidePosition = currentIndex * (-100)+"vw";
             $(".slideList").animate({ left: slidePosition},400);
         },5000);
-
         $(document).ready(function() {
         slide();
         });
