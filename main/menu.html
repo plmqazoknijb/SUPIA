@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <script src="./main.js" defer></script>
+    <!-- <script src="./main.js" defer></script> -->
     <title>menu</title>
 </head>
 <body>
@@ -17,13 +17,13 @@
             <div class="slideImg"><img src="./main_image/img3.png" alt="main 이미지"></div>
         </div>
     </section>
-    <div class="slide">
+    <!-- <div class="slide">
         <ul class="dot">
           <li class="on">슬라이드 버튼1번</li>
           <li>슬라이드 버튼2번</li>
           <li>슬라이드 버튼3번</li>
         </ul>
-      </div>
+      </div> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
         var slideCount = $(".slideImg").length;
@@ -36,11 +36,8 @@
                 currentIndex = 0;
             }
             slidePosition = currentIndex * (-100)+"vw";
-            $(".slideList").animate({ left: slidePosition},400);
+            $(".slideList").animate({ left: slidePosition}, 400);
         },5000);
-        $(document).ready(function() {
-        slide();
-        });
     </script>
     <div class="menuDiv">
         <h1>병들의 합창</h1>
