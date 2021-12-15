@@ -16,11 +16,11 @@
 
 
 /* Edit menu*/
-* {
+/* * {
     margin: 0px;
     padding: 0px;
   }
-  
+   */
   ul,
   ol,
   li {
@@ -55,16 +55,18 @@ body {
 .menuP{
     /* font-weight: bold; */
     font-size: 30px;
+    margin: 10px;
+    padding: 5px;
 }
 .menuDiv{
     text-align: center; 
-    margin-top: 150px; 
-    margin-bottom: 150px;
+    margin-top: 100px; 
+    margin-bottom: 100px;
 }
 video{
     width: 50vw;
     margin-top:10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .menuDiv h1{
