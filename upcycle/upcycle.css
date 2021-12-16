@@ -5,6 +5,9 @@ body{
 .title{
   text-align: center;
 }
+.stitle{
+  text-align: center;
+}
 .red{
   color: rgb(212, 69, 69);
 }
@@ -27,7 +30,9 @@ body{
   width: 95%;
 }
 img{
-  width:200px; height:200px;
+  width:200px; 
+  height:200px;
+  margin-top: 5%;
 }
 .inf{
   margin: 0;
