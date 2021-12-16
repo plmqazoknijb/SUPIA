@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 body{
   font-family: Gowun Batang;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .title{
   text-align: center;
 }
 .stitle{
   text-align: center;
+  margin-left: 0px;
 }
 .red{
   color: rgb(212, 69, 69);
@@ -29,7 +32,7 @@ body{
   margin-bottom: 3%;
   width: 95%;
 }
-img{
+.swiper-slide img{
   width:200px; 
   height:200px;
   margin-top: 5%;
@@ -45,8 +48,4 @@ img{
 .swiper-slide{
   text-align: center;
   margin-bottom: 3%;
-  margin-right: 0px;
-}
-.swiper-wrapper{
-  margin-left: 1px;
 }
