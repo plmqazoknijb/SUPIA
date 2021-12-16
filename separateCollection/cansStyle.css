@@ -26,7 +26,7 @@
 
 /* 전체 오른쪽으로 띄우기 */
 .metal{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 /* 고철 배출방법 왼쪽 정렬 */
@@ -105,7 +105,4 @@
     margin-bottom: -30px;
   }
 
-  /* .canskinds{
-    margin-top: -50px;
-  } */
 }
