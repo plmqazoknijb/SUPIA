@@ -109,5 +109,20 @@ p{
     .general1{
         margin-right: 15%;
     }
+
+    #sdf{
+        float: none;
+        width: 450px;
+        height: 341px;
+    }
+
+    .general-ul-1{
+        margin-left: -280px;
+        margin-top: 380px;
+    }
+
+    .division{
+        margin-top: -30px;
+    }
    
 }

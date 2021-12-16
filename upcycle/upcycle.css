@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 body{
   font-family: Gowun Batang;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #upa{
   margin-top:2%
@@ -23,6 +25,7 @@ body{
 #wrap div{
   display: inline-block;
   text-align: center;
+  margin-left: 0px;
 }
 .b div{
   padding: 20px;

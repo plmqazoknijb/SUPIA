@@ -157,6 +157,21 @@ summary{
         margin-left: 6%;
         margin-right: 6%;
     }
+
+    #sdf{
+        float: none;
+        width: 450px;
+        height: 341px;
+    }
+  
+    .bottleup{
+        margin-left: -280px;
+        margin-top: 380px;
+    }
+  
+    .mediaup{
+        margin-top: -30px;
+    }
    
 }
   

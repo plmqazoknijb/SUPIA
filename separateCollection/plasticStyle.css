@@ -106,5 +106,20 @@ summary{
     .plastic-ul{
         margin-left: 7%;
     }
+
+    #sdf{
+        float: none;
+        width: 450px;
+        height: 341px;
+    }
+  
+    .plasticup{
+        margin-left: -280px;
+        margin-top: 380px;
+    }
+  
+    .mediaup{
+        margin-top: -35px;
+    }
    
 }

@@ -103,5 +103,20 @@ summary{
       text-align: left;
       margin-right: 5%;
     }
+
+    #sdf{
+      float: none;
+      width: 450px;
+      height: 341px;
+    }
+
+    .paperup{
+      margin-left: -280px;
+      margin-top: 380px;
+    }
+
+    .mediaup{
+      margin-top: -30px;
+    }
    
   }

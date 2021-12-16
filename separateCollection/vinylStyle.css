@@ -99,5 +99,20 @@ summary{
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    #sdf{
+        float: none;
+        width: 450px;
+        height: 341px;
+    }
+  
+    .vinylup{
+        margin-left: -280px;
+        margin-top: 380px;
+    }
+  
+    .mediaup{
+        margin-top: -60px;
+    }
    
 }
