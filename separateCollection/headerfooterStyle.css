@@ -188,7 +188,9 @@ h5{
 
 /* 줄어들었을 때 세로정렬 하는 방법 */
 @media screen and (max-width: 768px) {
-
+  .header_logo{
+    margin-left:0px;
+  }
   .col-md{
     display: flex;
     align-items: center;
