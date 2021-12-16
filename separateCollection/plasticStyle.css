@@ -123,3 +123,17 @@ summary{
     }
    
 }
+
+@media screen and (max-width:555px){
+
+    #sdf{
+        float: none;
+        width: 250px;
+        height: 141px;
+    }
+
+    .plasticup{
+        margin-left: -280px;
+        margin-top: 180px;
+    }
+}
