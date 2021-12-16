@@ -5,7 +5,7 @@ body{
   margin-right: 0px;
 }
 #upa{
-  margin-top:2%
+  margin-top:3%
 }
 #wrap{
   font-size: 20px;
@@ -68,8 +68,8 @@ body{
   color: rgb(214, 73, 73);
 }
 .s{
-  margin-top: 3%;
-  width: 75%;
+  margin-top: 4%;
+  width: 85%;
 }
 .stitle{
   text-align: center;
@@ -79,7 +79,7 @@ body{
 .ss{
   margin-top: 3%;
   margin-bottom: 3%;
-  width: 90%;
+  width: 85%;
 }
 @media screen and (max-width: 968px){
   .mid {
