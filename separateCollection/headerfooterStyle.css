@@ -190,6 +190,8 @@ h5{
 @media screen and (max-width: 768px) {
   .header_logo{
     margin-left:0px;
+    position: relative;
+    right:8px;
   }
   .col-md{
     display: flex;
