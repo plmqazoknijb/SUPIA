@@ -2,66 +2,12 @@
 body{
   font-family: Gowun Batang;
 }
-
-#upa{
-  margin-top:2%
-}
-
-.clothes{
-    /* margin-left: 3%; */
-    font-size: 30px;
-    text-align: center;
-}
-
-#wrap{
-  font-size: 20px;
-  overflow:  hidden;
+.title{
   text-align: center;
-  padding-top: 0%;
-  margin-bottom: 3%;
-}
-#wrap a{
-  text-decoration: none; color: rgb(59, 146, 56); 
-}
-.b{
-  margin-bottom: 10px;
-}
-/* #wrap a:visited{color: rgb(23, 223, 70); text-decoration: underline;} */
-#wrap a:hover{color:rgb(59, 146, 56); text-decoration: none;}
-#wrap div{
-  display: inline-block;
-  text-align: center;
-}
-.b div{
-    float: left;
-    padding: 20px;
-    width: 480px;
-}
-#wrap img{
-    width:200px; height:200px;
-}
-  
-.inf{
-  margin: 0;
-  font-size: 15px;
-}
-  .box {
-    border-radius: 5px;
-    padding: 20px;
-    width: 270px;
-    height: 400px;
-    
-  }
-
-.Ex p{
-  font-size: 17px;
-
-
 }
 .red{
   color: rgb(212, 69, 69);
 }
-
 .link{
   text-decoration-line: none;
   color:rgb(59, 146, 56);
@@ -70,37 +16,28 @@ body{
   border-bottom:2px solid rgb(59, 146, 56); 
   padding-bottom:1px;
 }
-
-.Ex{
-  text-align: center;
-}
-
-.point{
-  color: rgb(214, 73, 73);
-}
 .s{
   margin-top: 3%;
+  margin-bottom: 3%;
   width: 75%;
 }
-.stitle{
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 0%;
+.ss{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 95%;
 }
-
-@media screen and (max-width: 968px){
-  .mid {
-    grid-column: 1 / 4 ;
-    grid-row: 3 / 4;
-  }
-  .title{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .b div{
-    margin-left: 0.5%;
-    margin-right: 4%;
-    width: 85%;
-  }
-  
+img{
+  width:200px; height:200px;
+}
+.inf{
+  margin: 0;
+  font-size: 15px;
+}
+.swiper-slide a{
+  font-size: 20px;
+  color:rgb(59, 146, 56);; text-decoration: none;
+}
+.swiper-slide{
+  text-align: center;
+  margin-bottom: 3%;
 }
