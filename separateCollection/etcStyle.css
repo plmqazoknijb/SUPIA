@@ -8,6 +8,10 @@
     text-align: left;
 }
 
+.etch34{
+    text-align: left;
+}
+
 /* 기타 배출방법 왼쪽 정렬 */
 .etc-ul-0{
     text-align: left;
@@ -117,6 +121,30 @@ summary{
     .etc-ul-1{
         margin-left: 13%;
         margin-right: 5%;
+    }
+
+    #sdf{
+        float: none;
+        width: 450px;
+        height: 341px;
+    }
+
+    .etx{
+        margin-left: -280px;
+        margin-top: 380px;
+    }
+    
+    .etcup{
+        margin-top: -200px;
+    }
+    
+    .etcmachine{
+        margin-top: -30px;
+    }
+
+    .etch34{
+        text-align: left;
+        margin-left: -65px;
     }
    
 }
